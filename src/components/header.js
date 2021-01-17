@@ -169,11 +169,11 @@ const Header = (props) => {
       <LogoWrapper article={props.article}>
         {props.article && (
           <NameLink href="/">
-            <NameArticle article={props.article}>Gabriel Adorf</NameArticle>
+            <NameArticle article={props.article}>Haemin Ryu</NameArticle>
           </NameLink>
         )}
-        {!props.article && <Name article={props.article}>Gabriel Adorf</Name>}
-        {!props.article && <Role>UI / UX Design</Role>}
+        {!props.article && <Name article={props.article}>Haemin Ryu/Name>}
+        {!props.article && <Role>Future Product Designer</Role>}
       </LogoWrapper>
       <div>
         <SocialLinks article={props.article}>
@@ -183,7 +183,7 @@ const Header = (props) => {
             onFocus={() => showTooltip('Mail')}
             onMouseLeave={hideTooltip}
             onBlur={hideTooltip}
-            aria-label="Send an email to Gabriel"
+            aria-label="Send an email to Haaemin"
           >
             <SvgWrapper>
               <InlineSvg>
@@ -192,7 +192,7 @@ const Header = (props) => {
             </SvgWrapper>
           </SocialLink>
           <SocialLink
-            href="https://twitter.com/gabdorf"
+            href="https://twitter.com/haeminryu"
             target="blank"
             onMouseOver={() => showTooltip('Twitter')}
             onFocus={() => showTooltip('Twitter')}
@@ -207,13 +207,13 @@ const Header = (props) => {
             </SvgWrapper>
           </SocialLink>
           <SocialLink
-            href="https://dribbble.com/gabdorf"
+            href="https://dribbble.com/haeminryu"
             target="blank"
             onMouseOver={() => showTooltip('Dribbble')}
             onFocus={() => showTooltip('Dribbble')}
             onMouseLeave={hideTooltip}
             onBlur={hideTooltip}
-            aria-label="Gabriel's dribbble profile"
+            aria-label="Haemin Ryu's dribbble profile"
           >
             <SvgWrapper>
               <InlineSvg>
