@@ -30,8 +30,8 @@ const About = () => {
       rightColumn={
         <Fragment>
           <Big>
-            Hi. I'm Gabriel, a UI and UX designer living in&nbsp;Berlin. I bring
-            ideas to life with design and&nbsp;code.
+            Hi. I'm Haemin Ryu, a potential product designer living in&nbsp;Fort Wayne, IN, USA. I create
+            harmony between human and&nbsp;products.
           </Big>
           <p>
             In my work I strive to optimize the aesthetic value and usability of
@@ -39,13 +39,12 @@ const About = () => {
             limitations.
           </p>
           <p>
-            Currently I'm designing the future of medical infrastructure at{' '}
-            <Link to="/lifetime">LifeTime</Link> and hosting electronic music
-            festivals with <Link to="/kellerkind">Kellerkind</Link>.
+            Currently I'm helping the businesses at{' '}
+            CirrusABS.
           </p>
           <p style={{ marginBottom: 0 }}>
-            Outside of work I'm passionate about my family, climbing and riding
-            all kinds of boards on roads, water and snow.
+            Outside of work I'm passionate about my family, traveling, baking,
+            and playing bass guitar.
           </p>
         </Fragment>
       }
