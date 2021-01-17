@@ -172,8 +172,8 @@ const Header = (props) => {
             <NameArticle article={props.article}>Haemin Ryu</NameArticle>
           </NameLink>
         )}
-        {!props.article && <Name article={props.article}>Haemin Ryu/Name>}
-        {!props.article && <Role>Future Product Designer</Role>}
+        {!props.article && <Name article={props.article}>Haemin Ryu</Name>}
+        {!props.article && <Role>Product Design</Role>}
       </LogoWrapper>
       <div>
         <SocialLinks article={props.article}>
@@ -183,7 +183,7 @@ const Header = (props) => {
             onFocus={() => showTooltip('Mail')}
             onMouseLeave={hideTooltip}
             onBlur={hideTooltip}
-            aria-label="Send an email to Haaemin"
+            aria-label="Send an email to Haemin"
           >
             <SvgWrapper>
               <InlineSvg>
@@ -213,7 +213,7 @@ const Header = (props) => {
             onFocus={() => showTooltip('Dribbble')}
             onMouseLeave={hideTooltip}
             onBlur={hideTooltip}
-            aria-label="Haemin Ryu's dribbble profile"
+            aria-label="Gabriel's dribbble profile"
           >
             <SvgWrapper>
               <InlineSvg>
