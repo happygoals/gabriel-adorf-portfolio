@@ -20,7 +20,7 @@ const HeroSection = styled.section`
 const Hero = () => {
   return (
     <HeroSection>
-      <Spirograph />
+      
       <Header />
     </HeroSection>
   )
