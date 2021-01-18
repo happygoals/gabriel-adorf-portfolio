@@ -178,7 +178,7 @@ const Header = (props) => {
       <div>
         <SocialLinks article={props.article}>
           <SocialLink
-            href={`mailto:${process.env.GATSBY_EMAIL}`}
+            href={`mailto:design.haemin.ryu@gmail.com`}
             onMouseOver={() => showTooltip('Mail')}
             onFocus={() => showTooltip('Mail')}
             onMouseLeave={hideTooltip}
@@ -198,7 +198,7 @@ const Header = (props) => {
             onFocus={() => showTooltip('Twitter')}
             onMouseLeave={hideTooltip}
             onBlur={hideTooltip}
-            aria-label="Gabriel's twitter profile"
+            aria-label="Haemin's twitter profile"
           >
 <!--
             <SvgWrapper>
