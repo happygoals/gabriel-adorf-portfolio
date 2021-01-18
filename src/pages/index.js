@@ -12,8 +12,8 @@ import Footer from 'components/footer'
 const App = () => {
   return (
     <GlobalWrapper>
-      {/* <Breakpoints /> */}
-      /* <Hero /> */
+      //{/* <Breakpoints /> */}
+      // <Hero /> 
       <Section id={'about'}>
         <About />
       </Section>
