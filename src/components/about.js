@@ -39,7 +39,7 @@ const About = () => {
             limitations.
           </p>
           <p>
-            Currently I'm helping the businesses at{' '}
+            Currently I'm helping companies leverage the Internet and Internet-based technologies to best achieve their business goals at{' '}
             CirrusABS.
           </p>
           <p style={{ marginBottom: 0 }}>
