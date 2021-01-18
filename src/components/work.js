@@ -24,26 +24,26 @@ const Work = () => {
         <Fragment>
           <Project
             logo={LifeTimeLogo()}
-            title="LifeTime"
-            abstract="Secure data exchange infrastructure for healthcare."
+            title="E-Bridge"
+            abstract="E-Bridge is an online two-sided employment platform designed to instantly connect technical talent with job opportunities after the COVID-19 crisis. This solution will help students, companies, and the community in face-to-face interaction between recruiters and candidates."
             link={LifeTimeLink}
           />
           <Project
             logo={PalettteAppLogo()}
-            title="Palettte App"
-            abstract="An app that allows you to build, analyze and edit smooth color palettes."
+            title="StarStock"
+            abstract="StarStock is a galactic stock market application for buying, selling, and managing stocks between multiple planets stock markets.X"
             link={PalettteLink}
           />
           <Project
             logo={KellerkindLogo()}
-            title="Kellerkind"
-            abstract="A social event company organizing two festivals for electronic music and art with ~20.000 yearly visitors north of munich."
+            title="BMW InPA 5.0.6 Tool"
+            abstract="A redesign project for a BMW InPA 5.0.6 Tool (Desktop application) to allow everyday BMW InPA tool users to have more control over how their car functions."
             link={KellerkindLink}
           />
           <Project
             logo={BamLogo()}
-            title="Bäm"
-            abstract="Climbing products and other stuff that give you the extra bäm effect."
+            title="Indoor Navigation: Improved Accessibility for Peoople with Disabilities"
+            abstract="A web application that analyzes generated data and presents it in a heatmap and a frequent routes chart. With the application, Parkview can understand routing trends and optimize space utilization."
             link={BamLink}
           />
         </Fragment>
