@@ -37,7 +37,7 @@ const Work = () => {
           <Project
             logo={KellerkindLogo()}
             title="BMW InPA 5.0.6 Tool"
-            abstract="A redesign project for a BMW InPA 5.0.6 Desktop application to allow everyday BMW InPA tool users to have more control over how their car functions."
+            abstract="A redesign project for a BMW InPA 5.0.6 desktop application to allow everyday BMW InPA tool users to have more control over how their car functions."
             link={KellerkindLink}
           />
           <Project
