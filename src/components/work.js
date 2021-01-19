@@ -19,7 +19,7 @@ const Work = () => {
   return (
     <TwoColumns
       wide
-      leftColumn={<SectionHeading>Work</SectionHeading>}
+      leftColumn={<SectionHeading>Project</SectionHeading>}
       rightColumn={
         <Fragment>
           <Project
@@ -31,7 +31,7 @@ const Work = () => {
           <Project
             logo={PalettteAppLogo()}
             title="StarStock"
-            abstract="StarStock is a galactic stock market application for buying, selling, and managing stocks between multiple planets stock markets.X"
+            abstract="StarStock is a galactic stock market application for buying, selling, and managing stocks between multiple planets stock markets."
             link={PalettteLink}
           />
           <Project
