@@ -13,6 +13,7 @@ const App = () => {
   return (
     <GlobalWrapper>
       {/* <Breakpoints /> */}
+      <Hero />
       <Section id={'about'}>
         <About />
       </Section>
