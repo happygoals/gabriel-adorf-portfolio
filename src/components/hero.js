@@ -6,14 +6,14 @@ import Header from 'components/header'
 import Spirograph from 'components/spirograph'
 
 const HeroSection = styled.section`
-  height: 100vh;
-  max-height: 100vh;
+  height: 50vh;
+  max-height: 50vh;
   display: flex;
   flex-direction: column;
   overflow: hidden;
   width: 100%;
   ${media.sm`
-    height: calc(100vh - 76px);
+    height: calc(50vh - 76px);
   `}
 `
 
