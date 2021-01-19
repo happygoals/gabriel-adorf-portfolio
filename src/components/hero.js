@@ -19,8 +19,7 @@ const HeroSection = styled.section`
 
 const Hero = () => {
   return (
-    <HeroSection>
-      
+    <HeroSection> 
       <Header />
     </HeroSection>
   )
