@@ -6,7 +6,7 @@ import SectionHeading from 'components/sectionHeading'
 import Project from 'components/project'
 
 import BMWLogo from 'img/bmwlogo'
-import PalettteAppLogo from 'img/palettteapplogo'
+import StarStockLogo from 'img/starstocklogo'
 import LifeTimeLogo from 'img/lifetimelogo'
 import BamLogo from 'img/bamlogo'
 
@@ -29,7 +29,7 @@ const Work = () => {
             link={LifeTimeLink}
           />
           <Project
-            logo={PalettteAppLogo()}
+            logo={StarStockLogo()}
             title="StarStock"
             abstract="StarStock is a galactic stock market application for buying, selling, and managing stocks between multiple planets stock markets."
             link={PalettteLink}
