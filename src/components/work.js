@@ -5,7 +5,7 @@ import TwoColumns from 'components/twoColumns'
 import SectionHeading from 'components/sectionHeading'
 import Project from 'components/project'
 
-import BMWLogo from 'img/bmwLogo'
+import BMWLogo from 'img/bmwlogo'
 import PalettteAppLogo from 'img/palettteapplogo'
 import LifeTimeLogo from 'img/lifetimelogo'
 import BamLogo from 'img/bamlogo'
