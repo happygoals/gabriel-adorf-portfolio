@@ -6,7 +6,7 @@ import Header from 'components/header'
 import Spirograph from 'components/spirograph'
 import CoverImage from 'components/article/coverimage'
 
-import MainCoverImage from 'img/main/me_041120.JPG'
+import MainCoverImage from 'img/main/me_041120.jpg'
 
 
 const HeroSection = styled.section`
