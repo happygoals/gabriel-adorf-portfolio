@@ -167,6 +167,7 @@ const Header = (props) => {
   return (
     <Div article={props.article}>
       <LogoWrapper article={props.article}>
+        <img src="../../img/android-chrome-192x192.png">
         {props.article && (
           <NameLink href="/">
             <NameArticle article={props.article}>Haemin Ryu</NameArticle>
