@@ -35,7 +35,7 @@ const Work = () => {
             link={PalettteLink}
           />
           <Project
-            logo={KellerkindLogo()}
+            logo={BMWLogo()}
             title="BMW InPA 5.0.6 Tool"
             abstract="A redesign project for a BMW InPA 5.0.6 desktop application to allow everyday BMW InPA tool users to have more control over how their car functions."
             link={KellerkindLink}
