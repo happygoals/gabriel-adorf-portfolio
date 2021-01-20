@@ -8,6 +8,7 @@ import CoverImage from 'components/article/coverimage'
 
 import MainCoverImage from 'img/main/me_041120.JPG'
 
+
 const HeroSection = styled.section`
   height: 50vh;
   max-height: 50vh;
