@@ -25,7 +25,7 @@ const Hero = () => {
   return (
     <HeroSection> 
       <Header />
-      <CoverImage src={MainCoverImage} focusX={'28%'} focusY={'55%'} />
+      <CoverImage src={MainCoverImage} focusX={'35%'} focusY={'55%'} />
     </HeroSection>
   )
 }
