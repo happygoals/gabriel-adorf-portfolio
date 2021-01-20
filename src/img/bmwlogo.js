@@ -10,4 +10,4 @@ const BMWLogo = props => {
   )
 }
 
-export default KellerkindLogo
+export default BMWLogo
