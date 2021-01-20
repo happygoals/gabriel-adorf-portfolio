@@ -222,8 +222,9 @@ const Header = (props) => {
               </InlineSvg>
             </SvgWrapper>     
           </SocialLink>
-         
-        {!props.article && (
+         </SocialLinks>
+        
+         {!props.article && (
           <Tooltip visible={tooltipIsVisible} article={props.article}>
             <TooltipText>{tooltipText}</TooltipText>
             <TooltipIcon>
