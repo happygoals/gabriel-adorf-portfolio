@@ -30,16 +30,14 @@ const About = () => {
       rightColumn={
         <Fragment>
           <Big>
-            Hi. I'm Haemin Ryu, a potential product designer living in&nbsp;Fort Wayne, IN, USA. I create
+            Hi. I'm Haemin Ryu, a prospective HCI graduate students living in&nbsp;Fort Wayne, IN, USA. I create
             harmony between human and&nbsp;products.
           </Big>
           <p>
-            In my work I strive to optimize the aesthetic value and usability of
-            products without losing sight of the technical challenges and
-            limitations.
+            People are the reason behind everything I do. I love thinking about changes to make the user experience and humans’ life better.
           </p>
           <p>
-            Currently, I'm helping businesses leverage the Internet and Internet-based technologies to best achieve their business goals at{' '}
+            Currently, I'm a software engineer and I'm helping other businesses to best achieve their business goals by solving complicated business issues with the customization and maintaining their website in the community at{' '}
             CirrusABS.
           </p>
           <p style={{ marginBottom: 0 }}>
