@@ -10,7 +10,7 @@ const Image = styled.div`
   height: ${size}px;
   margin-right: 40px;
   border-radius: 8px;
-  margin-top: 10px;
+  margin-top: 0px;
   ${media.md`
     margin-left: -28px;
   `}
