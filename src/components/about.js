@@ -30,19 +30,17 @@ const About = () => {
       rightColumn={
         <Fragment>
           <Big>
-            Hi. I'm Haemin Ryu, a prospective HCI graduate students living in&nbsp;Fort Wayne, IN, USA. I create
-            harmony between human and&nbsp;products.
+            Hello. I'm Haemin Ryu, a prospective HCI graduate student living in Fort Wayne, IN, USA. I create harmony between humans and products.
           </Big>
           <p>
-            People are the reason behind everything I do. I love thinking about changes to make the user experience and humans’ life better.
+            People are the reason behind everything I do. I love thinking about changes to make the user experience and human life better.
           </p>
           <p>
-            Currently, I'm a software engineer and I'm helping other businesses to best achieve their business goals by solving complicated business issues with the customization and maintaining their website in the community at{' '}
-            CirrusABS.
+            Currently, I'm a software developer and support businesses to better accomplish their business objectives by solving complex business problems with the customization and maintaining their website at CirrusABS.
           </p>
           <p style={{ marginBottom: 0 }}>
-            Outside of work I'm passionate about my family, <a href="https://500px.com/p/happygoals?view=photos">taking photos</a>, <a href="https://www.instagram.com/haeminyourfreetime">cooking</a>,
-            and playing bass guitar.
+            Outside of work, I'm passionate about my family, <a href="https://500px.com/p/happygoals?view=photos">taking photos</a>, <a href="https://www.instagram.com/haeminyourfreetime">cooking</a>,
+            and playing the bass guitar.
           </p>
         </Fragment>
       }
