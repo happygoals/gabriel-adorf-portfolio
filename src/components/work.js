@@ -42,8 +42,8 @@ const Work = () => {
           />
           <Project
             logo={BamLogo()}
-            title="Indoor Navigation: Improved Accessibility for Peoople with Disabilities"
-            abstract="This project is a web application that analyzes and presents created data in a heatmap and a chart of frequent routes. Parkview could understand routing patterns with the framework and optimize space utilization."
+            title="Indoor Navigation: Improved Accessibility for People with Disabilities"
+            abstract="This project is a web application that analyzes and presents created data in a heatmap and a chart of frequent routes. Parkview hospital could understand routing patterns with the framework and optimize space utilization."
             link={BamLink}
           />
         </Fragment>
