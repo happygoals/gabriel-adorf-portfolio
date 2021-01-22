@@ -41,7 +41,7 @@ const About = () => {
             CirrusABS.
           </p>
           <p style={{ marginBottom: 0 }}>
-            Outside of work I'm passionate about my family, <a href="https://500px.com/p/happygoals?view=photos">traveling</a>, <a href="https://www.instagram.com/haeminyourfreetime">cooking</a>,
+            Outside of work I'm passionate about my family, <a href="https://500px.com/p/happygoals?view=photos">taking photos</a>, <a href="https://www.instagram.com/haeminyourfreetime">cooking</a>,
             and playing bass guitar.
           </p>
         </Fragment>
