@@ -11,7 +11,7 @@ import EbridgeLogo from 'img/ebridgelogo'
 import BamLogo from 'img/bamlogo'
 
 const EbridgeLink = <Link to="/ebridge">Read More</Link>
-const PalettteLink = <Link to="/palettteapp">Read More</Link>
+const StarstockLink = <Link to="/starstockapp">Read More</Link>
 const KellerkindLink = <Link to="/kellerkind">Read More</Link>
 const BamLink = <Link to="/bam">Read More</Link>
 
@@ -32,7 +32,7 @@ const Work = () => {
             logo={StarStockLogo()}
             title="StarStock"
             abstract="StarStock is a galactic stock market application for buying, selling, and managing stocks between multiple planets stock markets."
-            link={PalettteLink}
+            link={StarstockLink}
           />
           <Project
             logo={BMWLogo()}

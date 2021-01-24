@@ -10,11 +10,11 @@ import Footer from 'components/footer'
 import CoverImage from 'components/article/coverimage'
 import LargeImage from 'components/article/largeimage'
 
-import PalettteCoverImage from 'img/articles/palettteapp/palettteapp.jpg'
-import PalettteImage1 from 'img/articles/palettteapp/palettte1.jpg'
-import PalettteImage2 from 'img/articles/palettteapp/palettte2.jpg'
-import PalettteImage3 from 'img/articles/palettteapp/palettte3.jpg'
-import PalettteImage4 from 'img/articles/palettteapp/palettte4.jpg'
+import StarstockCoverImage from 'img/articles/starstock/starstockapp.jpg'
+import StarstockImage1 from 'img/articles/starstock/starstock1.jpg'
+import StarstockImage2 from 'img/articles/starstock/starstock2.jpg'
+import StarstockImage3 from 'img/articles/starstock/starstock3.jpg'
+import StarstockImage4 from 'img/articles/starstock/starstock4.jpg'
 
 const Section = styled.section`
   margin: 64px 0;
@@ -23,16 +23,16 @@ const Section = styled.section`
   `}
 `
 
-const PalettteApp = () => {
+const Starstock = () => {
   return (
     <GlobalWrapper>
-      <Header title="Palettte App" />
-      <CoverImage src={PalettteCoverImage} focusX={'50%'} focusY={'0%'} />
+      <Header title="StarStock Mobile Application" />
+      <CoverImage src={StarstockCoverImage} focusX={'50%'} focusY={'0%'} />
       <Section>
         <ContentWrapper>
           <h2>Build, analyze and edit smooth color palettes</h2>
           <p>
-            <a href="https://palettte.app">Palettte App</a> is a tool I built in
+            StarStock App is a tool I built in
             order to learn react and solve a specific problem I had when working
             on our color palettes.<br />
           </p>
@@ -74,7 +74,7 @@ const PalettteApp = () => {
             </i>
           </p>
 
-          <p>This is where palettte app comes into play:</p>
+          <p>This is where StarStock app comes into play:</p>
           <ul>
             <li>
               Build <b>smooth color schemes</b> that flow from one color to
@@ -103,7 +103,7 @@ const PalettteApp = () => {
             for the hue, one for the saturation and one for the value
             (=brightness) of the colors.
           </p>
-          <LargeImage src={PalettteImage2} />
+          <LargeImage src={StarstockImage1} />
           <p>
             A basic palette for UI Design consists of 8-10 shades where the hue
             stays the same for all shades, the value goes up and the saturation
@@ -121,7 +121,7 @@ const PalettteApp = () => {
             Here is the palette Steve Schoger uses in his example in Refactoring
             UI:
           </p>
-          <LargeImage src={PalettteImage3} />
+          <LargeImage src={StarstockImage2} />
           <p>
             As you can see there is a little ditch in the value envelope curve
             and the saturation curve is round in the beginning and falls off in
@@ -133,7 +133,7 @@ const PalettteApp = () => {
             two handles and clicking on "interpolate" (only linear interpolation
             is supported at the moment).
           </p>
-          <LargeImage src={PalettteImage4} />
+          <LargeImage src={StarstockImage3} />
           <p>
             When you are happy with your result, simply export your new colors
             again.
@@ -147,12 +147,12 @@ const PalettteApp = () => {
             have piled up over time.
           </p>
           <p>
-            With palettte app, you can import those (legacy) colors and find the
+            With starstock app, you can import those (legacy) colors and find the
             most similar colors from your new palettes automatically. You will
             also immediatly spot when colors are too far off, and you need to
             introduce more colors in your palettes.
           </p>
-          <LargeImage src={PalettteImage1} />
+          <LargeImage src={StarstockImage4} />
           <p>
             It can also be useful if you want to add shades to your palette and
             need to rename all existing colors.
@@ -161,18 +161,7 @@ const PalettteApp = () => {
           <h3>Feedback welcome</h3>
           <p>
             If you have ideas how to make this tool better, please let me know
-            via <a href="https://twitter.com/gabdorf">Twitter</a>.
-          </p>
-          <p>
-            <i>Update:</i>{' '}
-            <a href="https://twitter.com/steveschoger/status/1097890956873998336">
-              Steve Schoger
-            </a>{' '}
-            and{' '}
-            <a href="https://twitter.com/erikdkennedy/status/1095012612230660096">
-              Eric Kennedy
-            </a>{' '}
-            are now both using palettte.app.
+            via <a href="https://twitter.com/haeminryu_">Twitter</a>.
           </p>
         </ContentWrapper>
       </Section>
@@ -181,4 +170,4 @@ const PalettteApp = () => {
   )
 }
 
-export default PalettteApp
+export default Starstock
