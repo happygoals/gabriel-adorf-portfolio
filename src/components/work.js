@@ -7,10 +7,10 @@ import Project from 'components/project'
 
 import BMWLogo from 'img/bmwlogo'
 import StarStockLogo from 'img/starstocklogo'
-import LifeTimeLogo from 'img/lifetimelogo'
+import EbridgeLogo from 'img/ebridgelogo'
 import BamLogo from 'img/bamlogo'
 
-const LifeTimeLink = <Link to="/lifetime">Read More</Link>
+const EbridgeLink = <Link to="/ebridge">Read More</Link>
 const PalettteLink = <Link to="/palettteapp">Read More</Link>
 const KellerkindLink = <Link to="/kellerkind">Read More</Link>
 const BamLink = <Link to="/bam">Read More</Link>
@@ -23,10 +23,10 @@ const Work = () => {
       rightColumn={
         <Fragment>
           <Project
-            logo={LifeTimeLogo()}
+            logo={EbridgeLogo()}
             title="E-Bridge"
             abstract="E-Bridge is an online two-sided employment platform designed to instantly connect technical talent with job opportunities after the COVID-19 crisis. This solution will help students, companies, and the community in face-to-face interaction between recruiters and candidates."
-            link={LifeTimeLink}
+            link={EbridgeLink}
           />
           <Project
             logo={StarStockLogo()}

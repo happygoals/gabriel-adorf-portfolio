@@ -10,21 +10,21 @@ import ContentWrapper from 'components/article/contentwrapper'
 import Footer from 'components/footer'
 import FullSizeImage from 'components/article/fullsizeimage'
 
-import CoverSrc from 'img/articles/lifetime/lifetime-cover.svg'
-import SilosSrc from 'img/articles/lifetime/lifetime-silos.svg'
-import Silos2Src from 'img/articles/lifetime/lifetime-silos2.svg'
-import UISrc from 'img/articles/lifetime/lifetime-app.jpg'
-import UI2Src from 'img/articles/lifetime/lifetime-app2.jpg'
-import TasksSrc from 'img/articles/lifetime/lifetime-tasks.jpg'
-import OnboardingSrc from 'img/articles/lifetime/lifetime-illustration.svg'
-import DesktopSrc from 'img/articles/lifetime/lifetime-desktop.jpg'
-import PaperPlaneSrc from 'img/articles/lifetime/lifetime-paperplane.svg'
-import TypeIconsSrc from 'img/articles/lifetime/lifetime-typeicons.svg'
-import IconsSrc from 'img/articles/lifetime/lifetime-icons.svg'
-import ColorsSrc from 'img/articles/lifetime/lifetime-colors.jpg'
-import LetterBoxSrc from 'img/articles/lifetime/lifetime-letterbox.jpg'
-import LogoSrc from 'img/articles/lifetime/lifetime-logo.svg'
-import HeartSpinnerSrc from 'img/articles/lifetime/lifetime-logoanimation.gif'
+import CoverSrc from 'img/articles/ebridge/lifetime-cover.svg'
+import SilosSrc from 'img/articles/ebridge/lifetime-silos.svg'
+import Silos2Src from 'img/articles/ebridge/lifetime-silos2.svg'
+import UISrc from 'img/articles/ebridge/lifetime-app.jpg'
+import UI2Src from 'img/articles/ebridge/lifetime-app2.jpg'
+import TasksSrc from 'img/articles/ebridge/lifetime-tasks.jpg'
+import OnboardingSrc from 'img/articles/ebridge/lifetime-illustration.svg'
+import DesktopSrc from 'img/articles/ebridge/lifetime-desktop.jpg'
+import PaperPlaneSrc from 'img/articles/ebridge/lifetime-paperplane.svg'
+import TypeIconsSrc from 'img/articles/ebridge/lifetime-typeicons.svg'
+import IconsSrc from 'img/articles/ebridge/lifetime-icons.svg'
+import ColorsSrc from 'img/articles/ebridge/lifetime-colors.jpg'
+import LetterBoxSrc from 'img/articles/ebridge/lifetime-letterbox.jpg'
+import LogoSrc from 'img/articles/ebridge/lifetime-logo.svg'
+import HeartSpinnerSrc from 'img/articles/ebridge/lifetime-logoanimation.gif'
 
 const Section = styled.section`
   margin: 64px 0;
@@ -99,10 +99,10 @@ const Img = styled.img`
   `}
 `
 
-const LifeTime = () => {
+const Ebridge = () => {
   return (
     <GlobalWrapper>
-      <Header title="LifeTime" />
+      <Header title="E-Bridge" />
       <CoverImage src={CoverSrc} focusX={'35%'} focusY={'50%'} />
       <Section>
         <ContentWrapper>
@@ -414,4 +414,4 @@ const LifeTime = () => {
   )
 }
 
-export default LifeTime
+export default Ebridge
