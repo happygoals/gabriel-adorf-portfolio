@@ -31,18 +31,15 @@ const Starstock = () => {
       <CoverImage src={StarstockCoverImage} focusX={'50%'} focusY={'20%'} />
       <Section>
         <ContentWrapper>
-          <h2>Build, analyze and edit smooth color palettes</h2>
+          <h2>Build a “galactic stock market” app</h2>
           <p>
-            StarStock App is a tool I built in
-            order to learn react and solve a specific problem I had when working
-            on our color palettes.<br />
+            StarStock App is an application I designed in
+            order to learn human computer interaction design and solve specific problems from the commercial products for stock markets.<br />
           </p>
           <br />
-          <h3>Why yet another color palette tool?</h3>
+          <h3>Why galactic stock market app?</h3>
           <p>
-            Most existing apps generate new color schemes based on different
-            geometrical concepts such as complementary colors or colors that are
-            layed out in a triangle or another shape in a certain color space.
+            Most existing apps focus on the financial stock market. In the future, there will be high chance to be needed an app  for buying, selling, and managing planets as stocks in the space world.
           </p>
           <p>
             The resulting color schemes might be suitable for logos or classic
@@ -50,22 +47,6 @@ const Starstock = () => {
             the time you need to work with a few base colors (that are often set
             by brand guidelines) and a whole range of different variations and
             shades.
-          </p>
-
-          <p>
-            Steve Schoger describes the creation of such a color palette quite
-            well:
-            <br />
-            <a href="https://refactoringui.com/previews/building-your-color-palette/">
-              Building your color palette
-            </a>
-          </p>
-          <p>
-            Another great article about this is from Eric Kennedy:
-            <br />
-            <a href="https://learnui.design/blog/color-in-ui-design-a-practical-framework.html">
-              Color in UI Design - a practical Framework
-            </a>
           </p>
           <p>
             What Steve doesn't describe exactly is how he finds those colors:
@@ -99,6 +80,25 @@ const Starstock = () => {
             can now add your base color by clicking "add swatch" or hitting the
             spacebar and entering the HEX-Value in the right sidebar.
           </p>
+  
+            <h3>User stories and Usability/design requirements</h3>
+              <p> The usability requirements should consider design elements we have discussed in class, such as keeping design consistent, using signifiers, etc. </p>
+              <p>As a buyer and seller, I would like to search for stocks so that I can see the market flow and stock prices.</p>
+              <p> As a buyer, I would like to buy stocks such that I can get the stocks between multiple planets.</p>
+              <p> As a seller, I would like to sell stocks such that I can get the money back to my account.</p>
+              <p> As a buyer and a seller, I would like to check the profit and loss ratio.</p>
+  
+          <h4>Usability / design requirements</h4>
+             <p>Keep the design concept of the app like space and planets with dark colors.</p>
+             <p>The signifiers should be simple and easy to understand.</p>
+             <p>Consider security part since the application is related to the payment process.</p>
+  
+          <h3>Task Analysis</h3>
+  
+  
+          <h3> Design Alternative for the UI of the app </h3> 
+            <p> I clearly label the affordances and the signifiers you use for those affordances. </p> 
+  
           <LargeImage src={StarstockImage0} />
           <p>
             When adding more swatches you can see that three curves form: one
@@ -112,7 +112,7 @@ const Starstock = () => {
             goes down <b>smoothly</b> as the colors get lighter.
           </p>
           <br />
-          <h3>Analyzing and editing existing color palettes</h3>
+          <h3>Analyzing existing stock market apps</h3>
           <p>
             If you already have a color palette and you want to know if it can
             be optimized, import the colors one by one or write the palette down
@@ -123,9 +123,12 @@ const Starstock = () => {
             Here is the palette Steve Schoger uses in his example in Refactoring
             UI:
           </p>
-          
+  
+ 
+  
           <LargeImage src={StarstockImage2} />
-          <p>
+         <p> I produced a HIGH-FIDELITY PROTOTYPE of the application using Adobe XD. </p>
+            <p>
             As you can see there is a little ditch in the value envelope curve
             and the saturation curve is round in the beginning and falls off in
             a linear way suddenly, nothing too serious but it's clear that Steve
@@ -160,6 +163,48 @@ const Starstock = () => {
             It can also be useful if you want to add shades to your palette and
             need to rename all existing colors.
           </p>
+  
+          <h3> User Testing for the prototype</h3> 
+ <p> Usability test consent form </p>
+
+  <p>
+This is a study about galactic stock market application, a tool buying, selling, and managing stocks between
+multiple planets stock markets in a generic Sci-Fi Galactic Federation. The goal of this project is to make
+the mobile application for galactic stock market appealing, intuitive and user friendly. Your participation
+will help us achieve this goal.
+Please read this form and sign it.
+In this usability test:
+● You will be asked to perform certain tasks on a computer.
+● We will also offer you an interview on the tasks you have performed.
+Participation is voluntary in this survey of usability. Both details will be kept strictly secret. To help
+improve the Kinect StarStock application, the descriptions and findings can be used. However, you can
+withdraw your testing consent at any time and reschedule participation.
+Please contact Haemin Ryu at ryuh01@pfw.edu if you have any questions after today, I read and
+understood the details on this form and answered all my questions.
+______________________________ _________________
+Signature Date
+
+List of Tasks
+
+1. Open the StarStock application
+2. Learn by tutorial and click “Skip” button
+3. Create your account and sign in using your new account
+4. Press the pin numbers to make sure authorization can be worked
+5. Try to customize the application setting on Settings
+6. Try to feel all the screens by swiping the screens
+User Feedback Survey
+
+1. How convenient was the steps of the application? Was it easy and clear to follow the instruction or
+signifier?
+2. Were you able to access the settings page?
+3. How do you feel about the selecting date and time on galaxy stock trading chart?
+4. Did the buttons and scroll screens work efficiently and smoothly?
+5. Is the user interface simple? Or complex?
+6. How do you think of the processes(steps) of the app usage experience? Is it understandable and
+intuitive?
+7. Are the locations of the navigation bar, buttons, texts, contents proper?
+  
+  </p>
           <br />
           <h3>Feedback welcome</h3>
           <p>
