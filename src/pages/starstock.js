@@ -28,7 +28,7 @@ const Starstock = () => {
   return (
     <GlobalWrapper>
       <Header title="StarStock Mobile Application" />
-      <CoverImage src={StarstockCoverImage} focusX={'50%'} focusY={'0%'} />
+      <CoverImage src={StarstockCoverImage} focusX={'50%'} focusY={'20%'} />
       <Section>
         <ContentWrapper>
           <h2>Build, analyze and edit smooth color palettes</h2>
