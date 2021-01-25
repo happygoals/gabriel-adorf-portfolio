@@ -11,6 +11,7 @@ import CoverImage from 'components/article/coverimage'
 import LargeImage from 'components/article/largeimage'
 
 import StarstockCoverImage from 'img/articles/starstock/starstockapp.jpg'
+import StarstockImage0 from 'img/articles/starstock/starstock0.jpg'
 import StarstockImage1 from 'img/articles/starstock/starstock1.jpg'
 import StarstockImage2 from 'img/articles/starstock/starstock2.jpg'
 import StarstockImage3 from 'img/articles/starstock/starstock3.jpg'
@@ -98,6 +99,7 @@ const Starstock = () => {
             can now add your base color by clicking "add swatch" or hitting the
             spacebar and entering the HEX-Value in the right sidebar.
           </p>
+          <LargeImage src={StarstockImage0} />
           <p>
             When adding more swatches you can see that three curves form: one
             for the hue, one for the saturation and one for the value
@@ -121,6 +123,7 @@ const Starstock = () => {
             Here is the palette Steve Schoger uses in his example in Refactoring
             UI:
           </p>
+          
           <LargeImage src={StarstockImage2} />
           <p>
             As you can see there is a little ditch in the value envelope curve
