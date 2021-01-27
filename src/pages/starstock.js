@@ -45,13 +45,13 @@ const Starstock = () => {
             Nowadays, most existing apps focus on the financial stock market. Looking ahead to the more distant future, there will be high chance to be needed an app for buying, selling, and managing planets as stocks in the space world.
           </p>
           <p>
-            It is not just in my imagination, but actually there are video games that involve the galaxy market and galaxy trade in the real world, and the movie Star Wars showed the galactic economy part of the story.
+            It is not just from my imagination, but actually there are video games that involve the galaxy market and galaxy trade in the real world, and the movie Star Wars showed the galactic economy part of the story.
           </p>
           <p>
             The resulting application might be suitable for easier trade of stars with search for star stocks by categorization, related news article curation service, and star stock recommendation service based on the user's preferences.
           </p>
 
-          <h3>User stories and Usability</h3>
+          <h3>User Stories</h3>
 
           <p>This is where StarStock app comes into play:</p>
           <ul>
