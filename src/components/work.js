@@ -11,9 +11,9 @@ import EbridgeLogo from 'img/ebridgelogo'
 import BamLogo from 'img/bamlogo'
 
 const EbridgeLink = <Link to="/ebridge">Read More</Link>
-const StarstockLink = <Link to="/starstockapp">Read More</Link>
+const StarstockLink = <Link to="/starstock">Read More</Link>
 const KellerkindLink = <Link to="/kellerkind">Read More</Link>
-const BamLink = <Link to="/bam">Read More</Link>
+const BamLink = <a href="https://github.com/happygoals/Team7_PFW_Capstone">Read More on GitHub ↗</a>
 
 const Work = () => {
   return (
@@ -26,7 +26,7 @@ const Work = () => {
             logo={EbridgeLogo()}
             title="E-Bridge"
             abstract="E-Bridge is an online two-sided employment platform designed to instantly connect technical talent with job opportunities after the COVID-19 crisis. This solution will help students, companies, and the community in face-to-face interaction between recruiters and candidates."
-            link={EbridgeLink}
+            
           />
           <Project
             logo={StarStockLogo()}
@@ -38,7 +38,7 @@ const Work = () => {
             logo={BMWLogo()}
             title="BMW InPA 5.0.6 Tool"
             abstract="This is a redesign project for BMW InPA 5.0.6 Tool to allow everyday BMW InPA tool users to have more control over how their car functions."
-            link={KellerkindLink}
+            
           />
           <Project
             logo={BamLogo()}
