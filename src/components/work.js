@@ -12,8 +12,8 @@ import BamLogo from 'img/bamlogo'
 
 const EbridgeLink = <Link to="/ebridge">Read More</Link>
 const StarstockLink = <Link to="/starstock">Read More</Link>
-const KellerkindLink = <Link to="/kellerkind">Read More</Link>
-const BamLink = <a href="https://github.com/happygoals/Team7_PFW_Capstone">Read More on GitHub ↗</a>
+const BMWLink = <a href="https://vimeo.com/392362212">Watch Demo on Vimeo ↗</a>
+const ParkviewLink = <a href="https://github.com/happygoals/Team7_PFW_Capstone">Read More on GitHub ↗</a>
 
 const Work = () => {
   return (
@@ -38,13 +38,13 @@ const Work = () => {
             logo={BMWLogo()}
             title="BMW InPA 5.0.6 Tool"
             abstract="This is a redesign project for BMW InPA 5.0.6 Tool to allow everyday BMW InPA tool users to have more control over how their car functions."
-            
+            link={BMWLink}
           />
           <Project
             logo={BamLogo()}
             title="Indoor Navigation: Improved Accessibility for People with Disabilities"
             abstract="This project is a web application that analyzes and presents created data in a heatmap and a chart of frequent routes. Parkview hospital could understand routing patterns with the framework and optimize space utilization."
-            link={BamLink}
+            link={ParkviewLink}
           />
         </Fragment>
       }
