@@ -39,7 +39,8 @@ const Work = () => {
             logo={BMWLogo()}
             title="BMW InPA 5.0.6 Tool"
             abstract="This is a redesign project for BMW InPA 5.0.6 Tool to allow everyday BMW InPA tool users to have more control over how their car functions."
-            link={BMWLink, BMWLink2}
+            link={BMWLink}
+            link={BMWLink2}
           />
           <Project
             logo={BamLogo()}
