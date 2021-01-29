@@ -40,7 +40,7 @@ const About = () => {
           </p>
           <p style={{ marginBottom: 0 }}>
             Outside of work, I'm passionate about my family, <a href="https://500px.com/p/happygoals?view=photos">taking photos</a>, <a href="https://www.instagram.com/haeminyourfreetime">cooking</a>,
-            and playing the bass guitar.
+            and playing the bass guitar. Recently, I attended 33th ACM User Interface Software and Technology Symposium as a <a href="https://medium.com/acm-uist/uist-day-3-was-a-great-final-day-thank-you-all-4a5dd9e052ac">Publicity student volunteer</a> in October 2020. 
           </p>
         </Fragment>
       }
