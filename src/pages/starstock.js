@@ -36,24 +36,23 @@ const Starstock = () => {
         <ContentWrapper>
           <h2>Build a “galactic stock market” app</h2>
           <p>
-            StarStock App is an application I designed in
-            order to solve specific problems from the commercial products for stock markets with imagination of galactic stock market which manages the planet transaction.<br />
+            StarStock App is an application I designed to solve specific problems from the commercial products for stock markets with the imagination of the galactic stock market which manages the planet transaction.<br />
           </p>
           <br />
           <h3>Why galactic stock market app?</h3>
           <p>
-            Nowadays, most existing apps focus on the financial stock market. Looking ahead to the more distant future, there will be high chance to be needed an app for buying, selling, and managing planets as stocks in the space world.
+            Nowadays, most existing apps focus on the financial stock market. Looking ahead to the more distant future, there will be a high chance to be needed an app for buying, selling, and managing planets as stocks in the space world.
           </p>
           <p>
-            It is not just from my imagination, but actually there are video games that involve the galaxy market and galaxy trade in the real world, and the movie Star Wars showed the galactic economy part of the story.
+            It is not just from my imagination, but actually, there are video games that involve the galaxy market and galaxy trade in the real world, and the movie Star Wars showed the galactic economy part of the story.
           </p>
           <p>
-            The resulting application might be suitable for easier trade of stars with search for star stocks by categorization, related news article curation service, and star stock recommendation service based on the user's preferences.
+            The resulting application might be suitable for easier-trade of stars with the search function for star stocks by categorization, related news article curation service, and star stock recommendation service based on the user's preferences.
           </p>
 
           <h3>User Stories</h3>
 
-          <p>This is where StarStock app comes into play:</p>
+          <p>This is where StarStock app will come into play:</p>
           <ul>
             <li>
              <b>Search</b> for star stocks that you want.
@@ -62,7 +61,7 @@ const Starstock = () => {
               Show the <b>market flow</b> and <b>market prices</b> for buyers and sellers in a list.
             </li>
             <li>
-              <b>Buy star stocks</b> with comparison for multiple planets and get the stocks that fits your <b>circumtances</b> and <b>preferences.</b>
+              <b>Buy star stocks</b>  with comparison for multiple planets and get stock that fits your <b>circumstances</b> and <b>preferences.</b>
             </li>
             <li>
               <b>Sell star stocks</b> and get the money back to my account.
@@ -73,15 +72,15 @@ const Starstock = () => {
           </ul>
           <br />
           <h3>Usability / Design requirements</h3>
-          <p> The usability requirements should consider design elements, such as keeping design consistent, using signifiers, etc. </p>
-          <p>This is what I consider for StarStock app:</p>
+          <p>The usability requirements should consider design elements, such as keeping the design consistent, using signifiers, etc. </p>
+          <p>This is what I consider for the StarStock app:</p>
              <li>Keep the design concept of the app like space and planets with dark colors.</li>
              <li>The signifiers should be simple and easy to understand.</li>
              <li>Buttons include the text.</li> 
-             <li>Consider security part since the application is related to the payment process.</li>
+             <li>Consider security since the application is related to the payment process.</li>
           <br />
           <h3>Task Analysis</h3>
-          <p> This is an example of task analysis on one of the user stories. </p>
+          <p>This is an example of task analysis on one of the user stories. </p>
           <LargeImage src={StarstockImage5} />
           
           <br />
@@ -90,14 +89,14 @@ const Starstock = () => {
            
           <LargeImage src={StarstockImage0} />
           <p>
-          A basic system color for UI Design consists of 7 colors. 
+          A standard system color for UI Design consists of 7 colors. 
           </p>
           <p>
-           According to the design requirements, I keep a cosmic image using the dark blue / deep dark blue color as a main background color. Since the button or any content like icons should be noticeable and clickable, I chose their color as yellow (Yellow is a complementary color of dark blue or purple.) the most. For the badges and buttons that uses for significant decision such as buying/selling stocks and saving operation, I used 
-           fluorescent colors. 
+           According to the design requirements, I keep a cosmic image using the dark blue / deep dark blue color as the main background color. Since the button or any content like icons should be noticeable and clickable, I chose their color as yellow (Yellow is a complementary color of dark blue or purple.) the most. For the badges and buttons that use for a significant decision, such as buying/selling stocks and saving operation, I used 
+fluorescent colors.
           </p>
 
-          <p> Here is the affordances and the signifiers I used for those affordances.</p>
+          <p>Here are the affordances and the signifiers I used for those affordances.</p>
           <LargeImage src={StarstockImage1} />
 
           <br />
@@ -112,17 +111,17 @@ const Starstock = () => {
   
           <LargeImage src={StarstockImage2} />
           <p> I produced a high fidelity prototype of the application using Adobe XD. 
-            As you can see, there 4 different screens in the process of searching for stocks. 
+            As you can see, there are four different screens in the process of searching for stocks. 
           </p>
           <h5>Searching interested star stocks</h5>
           <p>
-            In the first screen, you can view the news by categorizing the stocks with keywords. When you search for stocks like Mars, the result of your search displays your interest planet. The result contains a horizontal bar graph to show the percentage of positive and negative news depends on the artificial analysis curating system. When you click the related keywords in the pill shape buttons, it brings the daily news that are associated with the planet you are interested in and the keywords you selected. The reason why the daily news are shown as two column is because that can show the news titles as summary as many as possible.             
+            On the first screen, you can view the news by categorizing the stocks with keywords. When you search for a star like Mars, the result of your search displays your interest planet. The search result contains a horizontal bar graph to show the percentage of positive and negative news depends on the artificial analysis curating system. When you click the related keywords in the pill shape buttons, it brings the relevant daily news articles to the planet you are interested in and the keywords you selected. The reason the daily news articles showed as two-columns is because users can view the news titles as summary as many as possible.
           </p>
           <p>
-            When you scroll down the second screen above will appear with keywords you chose as bigger yellow texts on the top. In the center of the screen, you can see the stars around Mars (the one you searched) with the name, red color, and sphere shape. If you press one star, it turns as bluish color star and presents related news for that star. 
+           When you scroll down on the second screen above, the yellow color text will appear with keywords you chose on the top. On the center of the second screen, you can view the stars around Mars (the one you searched) with the name of a star, red color, and sphere shape. If you press one star, it turns a bluish color star and presents related news for that star. 
           </p>
           <h5>Finding your fits</h5>
-          <p>Moreover, in order for the first-time users or beginners who are not familiar with star stocks, the application has user settings for the stock recommendations. If you inputs your total budget for star stocks and the range of risks you can afford, you can know what your volatility type for stocks is. When you are happy with your result, hit SAVE and your type will be saved in your settings.</p>
+          <p>Moreover, in order for the beginners who are not familiar with star stocks, the application gives the stock recommendations based on the user settings. If you input your total budget value and the range of risks you can afford, you can know what your volatility type for stocks is. When you are happy with your result, hit SAVE, and your type will be set in your settings.</p>
 
           <LargeImage src={StarstockImage3} />
           <h5>Checking the list of star stocks</h5>
@@ -132,13 +131,7 @@ const Starstock = () => {
             The color of the price text is meaningful based on the common color scheme use in the stock market. Green indicates the stock is trading higher than the previous day's close. Red indicates the stock is trading lower than the previous day's close. Blue or white means the stock is unchanged from the previous closing price. 
           </p>
           <p>
-            When you swipe from right to left on the item, the buttons for redirecting to the buying or selling options will appear. 
-          </p>
-          <br />
-          
-          <LargeImage src={StarstockImage4} />
-          <p>
-            The application can also be useful if you want to get information of the galaxy. After you chose the galaxy you are interested in, the actual photo of the star displays with other stars that are located around the star. If you swipe the card at the bottom of the screen that includes the detail of the star, then you can view the star that is next to the star you viewed. When you go to 'Show Charts', it exhibits the stock trading chart (candle chart). You can check other scopes like profitability, growth, stability, and projection in the next page.  
+             The application can also be useful if you want to get information about the galaxy. When you pick on a star, the photo of the star displays along with the other nearby stars. If you swipe the cards at the bottom of the screen that includes the star's details, then you can also view another star that is closed to the star you just viewed. If you go 'Show Charts', it exhibits the stock trading chart (candle chart). You can check other scopes like profitability, growth, stability, and projection on the next page.  
           </p>
           <LargeImage src={StarstockImage6} />
           <p>
