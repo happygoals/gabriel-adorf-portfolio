@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import media from 'utils/media-queries'
 import Link from 'gatsby-link'
+import Link2 from 'gatsby-link'
 
 import { fontSize } from 'styles/theme'
 
@@ -54,7 +55,8 @@ const Project = (props) => {
       <Description>
         <Title>{props.title}</Title>
         <Abstract>{props.abstract}</Abstract>
-        <Link>{props.link}</Link>
+        <Link>{props.link}</Link> &nbsp; &nbsp;
+        <Link2>{props.link2}</Link2>
         
       </Description>
     </ProjectWrapper>
