@@ -15,7 +15,7 @@ const StarstockLink = <Link to="/starstock">Read More</Link>
 const BMWLink = <a href="https://vimeo.com/392362212">Watch Demo on Vimeo ↗</a>
 const BMWLink2 = <a href="https://drive.google.com/file/d/1BQDRDp9zB7wnmT2Y8-V1Cqo7ibkfhxBc/view?usp=sharing">Read More</a>
 const ParkviewLink = <a href="https://vimeo.com/392359571/6adb6cafd8">Watch Demo on Vimeo ↗</a>
-const ParkviewLink2 = <a href="https://github.com/happygoals/Team7_PFW_Capstone">Read More on GitHub ↗</a>
+const ParkviewLink2 = <a href="https://github.com/happygoals/Team7_PFW_Capstone">Read more</a>
 
 const Work = () => {
   return (
