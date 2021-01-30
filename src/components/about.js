@@ -43,7 +43,7 @@ const About = () => {
             and playing the bass guitar. 
           </p>
           <p>
-             In October 2020, I attended 33th ACM User Interface Software and Technology Symposium as a <a href="https://medium.com/acm-uist/uist-day-3-was-a-great-final-day-thank-you-all-4a5dd9e052ac">Publicity student volunteer</a> for the HCI community. 
+             In October 2020, I attended 33th ACM User Interface Software and Technology Symposium as a <a href="https://medium.com/acm-uist/uist-day-3-was-a-great-final-day-thank-you-all-4a5dd9e052ac">student volunteer</a> in publicity team for the HCI community. 
           </p>
         </Fragment>
       }
