@@ -30,11 +30,11 @@ const Section = styled.section`
 const Starstock = () => {
   return (
     <GlobalWrapper>
-      <Header title="StarStock Mobile Application" />
+      <Header title="StarStock" />
       <CoverImage src={StarstockCoverImage} focusX={'50%'} focusY={'20%'} />
       <Section>
         <ContentWrapper>
-          <h2>Build a “galactic stock market” app</h2>
+          <h2>Build a “galactic stock market” mobile application</h2>
           <p>
             StarStock App is an application I designed to solve specific problems from the commercial products for stock markets with the imagination of the galactic stock market which manages the planet transaction.<br />
           </p>
