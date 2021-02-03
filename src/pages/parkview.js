@@ -27,7 +27,7 @@ const Section = styled.section`
 const Bam = () => {
   return (
     <GlobalWrapper>
-      <Header title="Bäm" />
+      <Header title="Indoor Navigation: Improved Accessibility for People with Disabilities" />
       <CoverImage src={BamCoverImage} focusX={'44%'} focusY={'45%'} />
       <Section>
         <ContentWrapper>
