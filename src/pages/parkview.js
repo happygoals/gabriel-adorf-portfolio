@@ -11,7 +11,7 @@ import LargeImage from 'components/article/largeimage'
 import TwoImage from 'components/article/twoimage'
 import FullSizeImage from 'components/article/fullsizeimage'
 
-import BamCoverImage from 'img/articles/parkview/jj_climbing.jpg'
+import ParkviewCoverImage from 'img/articles/parkview/jj_climbing.jpg'
 import AfterClimbImage1 from 'img/articles/parkview/afterclimb_wireframe.jpg'
 import AfterClimbImage2 from 'img/articles/parkview/afterclimb_textured.jpg'
 import AfterClimbImage3 from 'img/articles/parkview/afterclimb_montage.jpg'
@@ -27,8 +27,9 @@ const Section = styled.section`
 const Bam = () => {
   return (
     <GlobalWrapper>
-      <Header title="Indoor Navigation: Improved Accessibility for People with Disabilities" />
-      <CoverImage src={BamCoverImage} focusX={'44%'} focusY={'45%'} />
+      <Header title="Indoor Navigation:" />
+      <Header title="Improved Accessibility for People with Disabilities" />
+      <CoverImage src={ParkviewCoverImage} focusX={'44%'} focusY={'45%'} />
       <Section>
         <ContentWrapper>
           <h2>Products with extra bäm effect</h2>
