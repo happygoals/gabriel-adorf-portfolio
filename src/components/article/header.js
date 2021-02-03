@@ -14,8 +14,8 @@ const BackArrow = styled(Link)`
   position: absolute;
   left: 10px;
   transform: rotate(90deg);
-  max-width: 64px;
-  max-height: 64px;
+  max-width: 50px;
+  max-height: 50px;
   color: ${color.grey900};
   ${media.sm`
     display: none;
@@ -32,7 +32,7 @@ const BackArrow = styled(Link)`
 `
 
 const Title = styled.div`
-  width: 90%;
+  width: 95%;
   text-align: center;
 `
 
