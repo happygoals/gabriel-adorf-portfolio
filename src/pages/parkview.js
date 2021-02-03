@@ -28,7 +28,7 @@ const Bam = () => {
   return (
     <GlobalWrapper>
       <Header title="Indoor Navigation: Improved Accessibility for People with Disabilities" />
-      <CoverImage src={ParkviewCoverImage} focusX={'44%'} focusY={'45%'} />
+      <CoverImage src={ParkviewCoverImage} focusX={'44%'} focusY={'65%'} />
       <Section>
         <ContentWrapper>
           <h2>Products with extra bäm effect</h2>
