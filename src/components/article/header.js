@@ -32,7 +32,7 @@ const BackArrow = styled(Link)`
 `
 
 const Title = styled.div`
-  width: 100%;
+  width: 90%;
   text-align: center;
 `
 
