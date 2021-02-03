@@ -11,7 +11,7 @@ import LargeImage from 'components/article/largeimage'
 import TwoImage from 'components/article/twoimage'
 import FullSizeImage from 'components/article/fullsizeimage'
 
-import ParkviewCoverImage from 'img/articles/parkview/jj_climbing.jpg'
+import ParkviewCoverImage from 'img/articles/parkview/parkview-cover.jpg'
 import AfterClimbImage1 from 'img/articles/parkview/afterclimb_wireframe.jpg'
 import AfterClimbImage2 from 'img/articles/parkview/afterclimb_textured.jpg'
 import AfterClimbImage3 from 'img/articles/parkview/afterclimb_montage.jpg'
