@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BamLogo = () => {
+const PakviewLogo = () => {
   return (
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="110.000000pt" height="110.000000pt" viewBox="0 0 500.000000 500.000000"
@@ -46,4 +46,4 @@ fill="#007934" stroke="none">
   )
 }
 
-export default BamLogo
+export default PakviewLogo
