@@ -44,7 +44,7 @@ const Work = () => {
             link2={BMWLink2}
           />
           <Project
-            logo={BamLogo()}
+            logo={PakviewLogo()}
             title="Indoor Navigation: Improved Accessibility for People with Disabilities"
             abstract="This project is a web application that analyzes and presents created data in a heatmap and a chart of frequent routes. Parkview hospital could understand routing patterns with the framework and optimize space utilization for people with disabilities. As a designer and frontend developer for this project, I managed the product design process from sketch to actual production build with considering user experiences."
             link={ParkviewLink}
