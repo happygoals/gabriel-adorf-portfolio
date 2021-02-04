@@ -12,10 +12,12 @@ import TwoImage from 'components/article/twoimage'
 import FullSizeImage from 'components/article/fullsizeimage'
 
 import ParkviewCoverImage from 'img/articles/parkview/parkview-cover.jpg'
-import AfterClimbImage1 from 'img/articles/parkview/afterclimb_wireframe.jpg'
-import AfterClimbImage2 from 'img/articles/parkview/afterclimb_textured.jpg'
-import AfterClimbImage3 from 'img/articles/parkview/afterclimb_montage.jpg'
-import AfterClimbImage4 from 'img/articles/parkview/afterclimb_logo.jpg'
+import ParkviewImage1 from 'img/articles/parkview/software_diagram.png'
+import ParkviewImage2 from 'img/articles/parkview/mainlogin.png'
+import ParkviewImage3 from 'img/articles/parkview/heatmap2.png'
+import ParkviewImage4 from 'img/articles/parkview/heatmap.png'
+import ParkviewImage5 from 'img/articles/parkview/routemap.png'
+import ParkviewImage6 from 'img/articles/parkview/poster.png'
 
 const Section = styled.section`
   margin: 64px 0;
@@ -24,7 +26,7 @@ const Section = styled.section`
   `}
 `
 
-const Bam = () => {
+const Pakview = () => {
   return (
     <GlobalWrapper>
       <Header title="Indoor Navigation: Improved Accessibility for People with Disabilities" />
@@ -46,16 +48,20 @@ const Bam = () => {
             packaging, CI and web designs for it.
           </p>
         </ContentWrapper>
-        <LargeImage src={AfterClimbImage4} alt="Afterclimb Logo" />
+        <LargeImage src={ParkviewImage1} alt="Software Diagram" />
+        <br />
+        <LargeImage src={ParkviewImage2} alt="Main Login" />
         <br />
         <TwoImage
-          src1={AfterClimbImage1}
-          alt1="Afterclimb Wireframe"
-          src2={AfterClimbImage2}
-          alt2="Afterclimb Textured"
+          src1={ParkviewImage3}
+          alt1="Heatmap Example"
+          src2={ParkviewImage4}
+          alt2="Heatmap Page"
         />
         <br />
-        <FullSizeImage src={AfterClimbImage3} alt="Afterclimb Montage" />
+        <FullSizeImage src={ParkviewImage5} alt="Route Page" />
+          <br />
+        <FullSizeImage src={ParkviewImage6} alt="Poster" />
       </Section>
       <Footer />
     </GlobalWrapper>
