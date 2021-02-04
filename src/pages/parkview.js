@@ -68,4 +68,4 @@ const Pakview = () => {
   )
 }
 
-export default Bam
+export default Pakview
