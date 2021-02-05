@@ -39,15 +39,15 @@ const Work = () => {
             logo={BMWLogo()}
             title="BMW InPA 5.0.6 Tool"
             abstract="This is a redesign project for BMW InPA 5.0.6 Tool to allow everyday BMW InPA tool users to have more control over how their car functions."
-            link={BMWLink2}
-            link2={BMWLink1}
+            link={BMWLink}
+            link2={BMWLink2}
           />
           <Project
             logo={ParkviewLogo()}
             title="Indoor Navigation: Improved Accessibility for People with Disabilities"
             abstract="This project is a web application that analyzes and presents created data in a heatmap and a chart of frequent routes. Parkview hospital could understand routing patterns with the framework and optimize space utilization for people with disabilities."
-            link={ParkviewLink2}
-            link2={ParkviewLink1}
+            link={ParkviewLink}
+            link2={ParkviewLink2}
           />
         </Fragment>
       }
