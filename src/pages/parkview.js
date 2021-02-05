@@ -30,7 +30,7 @@ const Pakview = () => {
   return (
     <GlobalWrapper>
       <Header title="Indoor Navigation: Improved Accessibility for People with Disabilities" />
-      <CoverImage src={ParkviewCoverImage} focusX={'44%'} focusY={'85%'} />
+      <CoverImage src={ParkviewCoverImage} focusX={'44%'} focusY={'40%'} />
       <Section>
         <ContentWrapper>
           <h2>Project Background and Description</h2>
