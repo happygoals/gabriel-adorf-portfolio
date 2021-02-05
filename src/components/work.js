@@ -8,7 +8,7 @@ import Project from 'components/project'
 import BMWLogo from 'img/bmwlogo'
 import StarStockLogo from 'img/starstocklogo'
 import EbridgeLogo from 'img/ebridgelogo'
-import BamLogo from 'img/bamlogo'
+import ParkviewLogo from '../img/parkviewlogo'
 
 const EbridgeLink = <Link to="/ebridge">Read More</Link>
 const StarstockLink = <Link to="/starstock">Read More</Link>
@@ -44,7 +44,7 @@ const Work = () => {
             link2={BMWLink2}
           />
           <Project
-            logo={PakviewLogo()}
+            logo={ParkviewLogo()}
             title="Indoor Navigation: Improved Accessibility for People with Disabilities"
             abstract="This project is a web application that analyzes and presents created data in a heatmap and a chart of frequent routes. Parkview hospital could understand routing patterns with the framework and optimize space utilization for people with disabilities. As a designer and frontend developer for this project, I managed the product design process from sketch to actual production build with considering user experiences."
             link={ParkviewLink}

@@ -13,7 +13,7 @@ import FullSizeImage from 'components/article/fullsizeimage'
 
 import ParkviewCoverImage from 'img/articles/parkview/parkview-cover.jpg'
 import ParkviewImage1 from 'img/articles/parkview/software_diagram.png'
-import ParkviewImage2 from 'img/articles/parkview/mainlogin.png'
+import ParkviewImage2 from 'img/articles/parkview/jj_climbing.jpg'
 import ParkviewImage3 from 'img/articles/parkview/heatmap2.png'
 import ParkviewImage4 from 'img/articles/parkview/heatmap.png'
 import ParkviewImage5 from 'img/articles/parkview/routemap.png'
