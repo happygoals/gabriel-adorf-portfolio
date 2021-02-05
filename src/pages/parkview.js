@@ -82,10 +82,9 @@ const Pakview = () => {
         </ContentWrapper>      
   <br />
         <LargeImage src={ParkviewImage5} alt="Route Page" />
-     <ContentWrapper>
+       <ContentWrapper>
           <p> This is a routing Map Page for understand routing patterns in the first floor of the hospital. </p>
-     </ContentWrapper>     
-      <br />
+      </ContentWrapper>     
         <ContentWrapper>
           <h2>Project Aspirations and Description</h2>
 
