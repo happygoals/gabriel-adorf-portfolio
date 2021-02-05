@@ -49,13 +49,13 @@ const Pakview = () => {
         </ContentWrapper>
         <ContentWrapper>
           <h2>Project Scope Description</h2>
-          <p>Problem</p>
+          <h4>Problem</h4>
           <p>Information in the database is not currently used.</p>
-          <p>Reason</p>        
+          <h4>Reason</h4>        
           <p>Hospital patient’s location and database data can be efficiently managed to help guide patients.</p>
           <p> * Example Data: Age, Time, Handicapped</p>
          <p>
-           <p>Solution Development of a Web Application</p> that presents analyzed data to administrative staff in a comprehensive manner and allowing the data to be manipulated or viewed in many different formats and the Web application is only for staff members.
+           <p><b>Solution Development of a Web Application</b> that presents analyzed data to administrative staff in a comprehensive manner and allowing the data to be manipulated or viewed in many different formats and the Web application is only for staff members.
          </p>
           <p>
            For example, using the webpage the Parkview staff could determine what time are most populated, and by which age group or gender. This would allow for an in-depth look at particular patient demographics, giving Parkview the tools to improve upon their already great services.
