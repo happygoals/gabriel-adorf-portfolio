@@ -45,6 +45,7 @@ const Pakview = () => {
          <p>
             The application currently uses Bluetooth low energy to power the real-time positioning functionality of the application creating an easy to understand navigation system.
          </p>
+          <LargeImage src={ParkviewImage1} alt="Software Diagram" />
         </ContentWrapper>
         <ContentWrapper>
           <h2>Project Scope Description</h2>
@@ -52,7 +53,7 @@ const Pakview = () => {
            Problem : Information in the database is not currently used.
           </p>
           <p>
-            Reason : Hospital patient’s location and database data can be efficiently managed to help guide patients. * Example Data: Age, Time, Handicapped
+           Reason : Hospital patient’s location and database data can be efficiently managed to help guide patients. * Example Data: Age, Time, Handicapped
           </p>
          <p>
            Solution Development of a Web Application that presents analyzed data to administrative staff in a comprehensive manner and allowing the data to be manipulated or viewed in many different formats and the Web application is only for staff members.
@@ -65,7 +66,6 @@ const Pakview = () => {
            We created a <b>web application</b> that analyzes and presents created data in a heatmap and a chart of frequent routes for Parkview Hospital's Utilization. As a designer and frontend developer for this web development project, I managed the product design process from sketch to actual production build with considering user experiences.
          </p>
         </ContentWrapper>
-        <LargeImage src={ParkviewImage1} alt="Software Diagram" />
         <br />
         <LargeImage src={ParkviewImage2} alt="Main Login" />
           <ContentWrapper>
