@@ -59,8 +59,8 @@ const Pakview = () => {
           alt2="Heatmap Page"
         />
         <br />
-        <FullSizeImage src={ParkviewImage5} alt="Route Page" />
-          <br />
+        <LargeImage src={ParkviewImage5} alt="Route Page" />
+        <br />
         <FullSizeImage src={ParkviewImage6} alt="Poster" />
       </Section>
       <Footer />
