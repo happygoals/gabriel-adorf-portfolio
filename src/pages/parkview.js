@@ -33,24 +33,56 @@ const Pakview = () => {
       <CoverImage src={ParkviewCoverImage} focusX={'44%'} focusY={'85%'} />
       <Section>
         <ContentWrapper>
-          <h2>Products with extra bäm effect</h2>
+          <h2>Project Background and Description</h2>
 
           <p>
-            Bäm is a brand and registered trademark by Dr. Johannes Jacubeit,
-            under which he has bundled and marketed various smaller projects and
-            (mostly climbing) products in the past. The common denominator is
-            the motto &quot;Bäm - make things happen.&quot;
+            The primary purpose of this project is to improve upon the previous generation of the Indoor Navigation Mobile Application that was created for the Parkview Regional Medical Campus (PRMC) in Fort Wayne, Indiana. 
           </p>
 
           <p>
-            Bäm - Afterclimb is a soothing gel for the hands, which provides for
-            a faster healing of the skin after sports climbing. I have provided
-            packaging, CI and web designs for it.
+            PRMC is invested in improving the patient experience and is a leading institution in the medical industry. This project aims to utilize new technologies with a focus on the patient experience to keep PRMC ahead of the competitors. 
           </p>
+         <p>
+            The application currently uses Bluetooth low energy to power the real-time positioning functionality of the application creating an easy to understand navigation system.
+         </p>
+        </ContentWrapper>
+        <ContentWrapper>
+          <h2>Project Scope Description</h2>
+          <p>
+           Problem : Information in the database is not currently used.
+          </p>
+          <p>
+            Reason : Hospital patient’s location and database data can be efficiently managed to help guide patients. * Example Data: Age, Time, Handicapped
+          </p>
+         <p>
+           Solution Development of a Web Application that presents analyzed data to administrative staff in a comprehensive manner and allowing the data to be manipulated or viewed in many different formats and the Web application is only for staff members.
+         </p>
+          <p>
+           For example, using the webpage the Parkview staff could determine what time are most populated, and by which age group or gender. This would allow for an in-depth look at particular patient demographics, giving Parkview the tools to improve upon their already great services.
+         </p>
+         <h2>My role for this project</h2>
+          <p>
+           We created a <b>web application</b> that analyzes and presents created data in a heatmap and a chart of frequent routes for Parkview Hospital's Utilization. As a designer and frontend developer for this web development project, I managed the product design process from sketch to actual production build with considering user experiences.
+         </p>
+        </ContentWrapper>
+        <ContentWrapper>
+          <h2>Project Aspirations and Description</h2>
+
+          <p>
+            This iteration of the project will focus on three key features web development, targeted advertisements, and improved mobile application navigation. 
+          </p>
+
+          <p>
+            These include web development utilizing data and business analytics, targeted advertisements that will promote Parkview technologies, and improved mobile application navigation to assisted disabled patients. 
+          </p>
+         <p>
+             Each feature serves to enhance PRMC's quality of service, revenue generation, and modern appeal.
+         </p>
         </ContentWrapper>
         <LargeImage src={ParkviewImage1} alt="Software Diagram" />
         <br />
         <LargeImage src={ParkviewImage2} alt="Main Login" />
+          <p> This is a Parkview Analytics Main login Page. </p>
         <br />
         <TwoImage
           src1={ParkviewImage3}
@@ -58,8 +90,10 @@ const Pakview = () => {
           src2={ParkviewImage4}
           alt2="Heatmap Page"
         />
+          <p> This is a Heat Map Page to view the population of the spot and check the most popular department, most popular beacon number, and least popular beacon number. </p> 
         <br />
         <LargeImage src={ParkviewImage5} alt="Route Page" />
+          <p> This is a routing Map Page for understand routing patterns in the first floor of the hospital. </p>
         <br />
         <FullSizeImage src={ParkviewImage6} alt="Poster" />
       </Section>
