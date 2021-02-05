@@ -65,36 +65,42 @@ const Pakview = () => {
            We created a <b>web application</b> that analyzes and presents created data in a heatmap and a chart of frequent routes for Parkview Hospital's Utilization. As a designer and frontend developer for this web development project, I managed the product design process from sketch to actual production build with considering user experiences.
          </p>
         </ContentWrapper>
-        <ContentWrapper>
-          <h2>Project Aspirations and Description</h2>
-
-          <p>
-            This iteration of the project will focus on three key features web development, targeted advertisements, and improved mobile application navigation. 
-          </p>
-
-          <p>
-            These include web development utilizing data and business analytics, targeted advertisements that will promote Parkview technologies, and improved mobile application navigation to assisted disabled patients. 
-          </p>
-         <p>
-             Each feature serves to enhance PRMC's quality of service, revenue generation, and modern appeal.
-         </p>
-        </ContentWrapper>
         <LargeImage src={ParkviewImage1} alt="Software Diagram" />
         <br />
         <LargeImage src={ParkviewImage2} alt="Main Login" />
+          <ContentWrapper>
           <p> This is a Parkview Analytics Main login Page. </p>
+          </ContentWrapper>
         <br />
-        <TwoImage
+        <ContentWrapper>
+            <TwoImage
           src1={ParkviewImage3}
           alt1="Heatmap Example"
           src2={ParkviewImage4}
           alt2="Heatmap Page"
         />
           <p> This is a Heat Map Page to view the population of the spot and check the most popular department, most popular beacon number, and least popular beacon number. </p> 
-        <br />
+        </ContentWrapper>      
+  <br />
         <LargeImage src={ParkviewImage5} alt="Route Page" />
+     <ContentWrapper>
           <p> This is a routing Map Page for understand routing patterns in the first floor of the hospital. </p>
-        <br />
+     </ContentWrapper>     
+      <br />
+        <ContentWrapper>
+          <h2>Project Aspirations and Description</h2>
+
+          <p>
+            This iteration of the project focused on three key features web development, targeted advertisements, and improved mobile application navigation. 
+          </p>
+
+          <p>
+            These include web development utilizing data and business analytics, targeted advertisements that will promote Parkview technologies, and improved mobile application navigation to assisted disabled patients. 
+          </p>
+         <p>
+             Each feature served to enhance PRMC's quality of service, revenue generation, and modern appeal.
+         </p>
+        </ContentWrapper>            
         <FullSizeImage src={ParkviewImage6} alt="Poster" />
       </Section>
       <Footer />
