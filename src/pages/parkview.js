@@ -68,13 +68,14 @@ const Pakview = () => {
         <br />
         <LargeImage src={ParkviewImage2} alt="Main Login" />
           <ContentWrapper>
-          <p> This is a Parkview Analytics Main login Page. </p>
+          <p> This is a Parkview Analytics Main login Page. The diamond shape of the central login window is designed in consideration of the shape of the Parkview Hospital logo. To keep the main theme color of Parkview Health, the main color of the application pages use green. For ease of identification, white is used to highlight button text that makes the user goes to different pages.
+            </p>
           </ContentWrapper>
         <br />
         <LargeImage src={ParkviewImage4} alt="Heatmap Page" />
         <ContentWrapper>
         <LargeImage src={ParkviewImage3} alt="Heatmap Example" />
-          <p> A heat map page is allow the staff to view the population of the spot and check the most popular department, most popular beacon number, and least popular beacon number. </p> 
+          <p> A heat map page is allow the staff to view the population of the spot and check the most popular department, most popular beacon number, and least popular beacon number. I added the sun and moon icons at the bottom of the time picker to let you know at a glance whether it is the day time or night time when setting the time range on the heatmap controller. In addition, the color of the time picker bar is designed as a gradient green color in consideration of the sun rising and setting. The time of day when the sun goes down is expressed in dark green, and the time of day when the sun rises is expressed in lighter green. All setting texts and result boxes that have meaning are displayed together with text and icon so that the user can easily understand the meaning with just the icon.</p> 
         </ContentWrapper>      
   <br />
         <LargeImage src={ParkviewImage5} alt="Route Page" />
