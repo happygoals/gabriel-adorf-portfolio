@@ -70,6 +70,7 @@ const Pakview = () => {
           <ContentWrapper>
           <p> This is a Parkview Analytics Main login Page. The diamond shape of the central login window is designed in consideration of the shape of the Parkview Hospital logo. To keep the main theme color of Parkview Health, the main color of the application pages use green. For ease of identification, white is used to highlight button text that makes the user goes to different pages.
             </p>
+            <iframe src="https://player.vimeo.com/video/392363121" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
           </ContentWrapper>
         <br />
         <LargeImage src={ParkviewImage4} alt="Heatmap Page" />
@@ -77,6 +78,7 @@ const Pakview = () => {
           <p> A heat map page allows the staff to view the population of the spot and check the most popular department, most popular beacon number, and least popular beacon number. </p>
           <p> I added the sun and moon icons at the bottom of the time picker to let you know at a glance whether it is the day time or night time when setting the time range on the heatmap controller. In addition, the color of the time picker bar is designed as a gradient green color in consideration of the sun rising and setting. The time of day when the sun goes down is expressed in dark green, and the time of day when the sun rises is expressed in lighter green. </p>
           <p>All setting texts and result boxes that have meaning are displayed together with text and icon so that the user can easily understand the meaning with just the icon.</p> 
+          <iframe src="https://player.vimeo.com/video/392362627" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
           <LargeImage src={ParkviewImage3} alt="Heatmap Example" />
         </ContentWrapper>      
   <br />
@@ -84,7 +86,7 @@ const Pakview = () => {
        <ContentWrapper>
           <p> This is a routing map page for understand routing patterns in the first floor of the hospital. Each series of bubbles on the route chart represent a route taken. The size of the bubble on the chart represents the frequency of the route. When clicking on a bubble, it draws the corresponding route on the map. </p>
           <br />
-          <a href="https://vimeo.com/392359571/6adb6cafd8">Watch Demo on Vimeo ↗</a>
+          <iframe src="https://player.vimeo.com/video/392360253" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
       </ContentWrapper>
       <ContentWrapper>
           <h2>Project Aspirations and Description</h2>
@@ -99,7 +101,11 @@ const Pakview = () => {
          <p>
              Each feature served to enhance PRMC's quality of service, revenue generation, and modern appeal.
          </p>
-        </ContentWrapper>            
+        </ContentWrapper>
+        <ContentWrapper>
+          <h2>Final Demo and Poster</h2>
+        <iframe src="https://player.vimeo.com/video/392359571" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>           
+        </ContentWrapper>
         <FullSizeImage src={ParkviewImage6} alt="Poster" />
       </Section>
       <Footer />
