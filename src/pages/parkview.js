@@ -55,14 +55,14 @@ const Pakview = () => {
           <p>Hospital patient’s location and database data can be efficiently managed to help guide patients.</p>
           <p> * Example Data: Age, Time, Handicapped</p>
          <p>
-          <b>Solution Development of a Web Application</b> that presents analyzed data to administrative staff in a comprehensive manner and allowing the data to be manipulated or viewed in many different formats and the Web application is only for staff members.
+          <b>Solution Development of a Web Application</b> that presents analyzed data to administrative staff in a comprehensive manner and allowing the data to be manipulated or viewed in many different formats and the Web application is only for <b>Parkview staff members</b>.
          </p>
           <p>
            For example, using the webpage the Parkview staff could determine what time are most populated, and by which age group or gender. This would allow for an in-depth look at particular patient demographics, giving Parkview the tools to improve upon their already great services.
          </p>
          <h2>My role for this project</h2>
           <p>
-           We created a <b>web application</b> that analyzes and presents created data in a heatmap and a chart of frequent routes for Parkview Hospital's Utilization. As a designer and frontend developer for this web development project, I managed the product design process from sketch to actual production build with considering user experiences.
+           We created a <b>web application</b> that analyzes and presents created data in a heatmap and a chart of frequent routes for Parkview Hospital's Utilization. As a <b>designer</b> and a <b>front-end developer</b> for this web development project, I managed the product design process from sketch to actual production build with considering user experiences.
          </p>
         </ContentWrapper>
         <br />
