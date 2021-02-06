@@ -79,8 +79,8 @@ const Pakview = () => {
           <p> I added the sun and moon icons at the bottom of the time picker to let you know at a glance whether it is the day time or night time when setting the time range on the heatmap controller. In addition, the color of the time picker bar is designed as a gradient green color in consideration of the sun rising and setting. The time of day when the sun goes down is expressed in dark green, and the time of day when the sun rises is expressed in lighter green. </p>
           <p>All setting texts and result boxes that have meaning are displayed together with text and icon so that the user can easily understand the meaning with just the icon.</p> 
           <iframe src="https://player.vimeo.com/video/392362627" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-          <LargeImage src={ParkviewImage3} alt="Heatmap Example" />
-        </ContentWrapper>      
+          
+        </ContentWrapper>     
   <br />
         <LargeImage src={ParkviewImage5} alt="Route Page" />
        <ContentWrapper>
@@ -104,7 +104,7 @@ const Pakview = () => {
         </ContentWrapper>
         <ContentWrapper>
           <h2>Final Demo and Poster</h2>
-        <iframe src="https://player.vimeo.com/video/392359571" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>           
+          <iframe src="https://player.vimeo.com/video/392363121" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </ContentWrapper>
         <FullSizeImage src={ParkviewImage6} alt="Poster" />
       </Section>
