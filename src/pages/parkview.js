@@ -71,21 +71,17 @@ const Pakview = () => {
           <p> This is a Parkview Analytics Main login Page. </p>
           </ContentWrapper>
         <br />
+        <LargeImage src={ParkviewImage4} alt="Heatmap Page" />
         <ContentWrapper>
-            <TwoImage
-          src1={ParkviewImage3}
-          alt1="Heatmap Example"
-          src2={ParkviewImage4}
-          alt2="Heatmap Page"
-        />
-          <p> This is a Heat Map Page to view the population of the spot and check the most popular department, most popular beacon number, and least popular beacon number. </p> 
+        <LargeImage src={ParkviewImage3} alt="Heatmap Example" />
+          <p> A Heat Map Page is allow the staff to view the population of the spot and check the most popular department, most popular beacon number, and least popular beacon number. </p> 
         </ContentWrapper>      
   <br />
         <LargeImage src={ParkviewImage5} alt="Route Page" />
        <ContentWrapper>
-          <p> This is a routing Map Page for understand routing patterns in the first floor of the hospital. </p>
-      </ContentWrapper>     
-        <ContentWrapper>
+          <p> This is a routing Map Page for understand routing patterns in the first floor of the hospital. Each series of bubbles on the route chart represent a route taken. The size of the bubble on the chart represents the frequency of the route. When clicking on a bubble, it draws the corresponding route on the map. </p>
+      </ContentWrapper>
+      <ContentWrapper>
           <h2>Project Aspirations and Description</h2>
 
           <p>
