@@ -83,6 +83,8 @@ const Pakview = () => {
         <LargeImage src={ParkviewImage5} alt="Route Page" />
        <ContentWrapper>
           <p> This is a routing map page for understand routing patterns in the first floor of the hospital. Each series of bubbles on the route chart represent a route taken. The size of the bubble on the chart represents the frequency of the route. When clicking on a bubble, it draws the corresponding route on the map. </p>
+          <br />
+          <a href="https://vimeo.com/392359571/6adb6cafd8">Watch Demo on Vimeo ↗</a>
       </ContentWrapper>
       <ContentWrapper>
           <h2>Project Aspirations and Description</h2>
@@ -98,7 +100,6 @@ const Pakview = () => {
              Each feature served to enhance PRMC's quality of service, revenue generation, and modern appeal.
          </p>
         </ContentWrapper>            
-        <a href="https://vimeo.com/392359571/6adb6cafd8">Watch Demo on Vimeo ↗</a>
         <FullSizeImage src={ParkviewImage6} alt="Poster" />
       </Section>
       <Footer />
