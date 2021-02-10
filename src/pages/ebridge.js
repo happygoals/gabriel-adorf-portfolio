@@ -102,7 +102,7 @@ const Img = styled.img`
 const Ebridge = () => {
   return (
     <GlobalWrapper>
-      <Header title="E-Bridge" />
+      <Header title="E-Bridge: The Bridge to the dream job" />
       <CoverImage src={CoverSrc} focusX={'35%'} focusY={'50%'} />
       <Section>
         <ContentWrapper>
@@ -191,12 +191,15 @@ const Ebridge = () => {
           <p>
             But: This information could be very valuable for a better diagnosis.
           </p>
-          <p>
-            What if there was a system in which patients could fully own,
-            control and, if necessary, share their data with doctors? On the
-            medical side, software would then aggregate this data and help with
-            the diagnostic work.
-          </p>
+        </ContentWrapper>
+        <ContentWrapper>
+          <h2> Project Goals</h2> 
+          <h3> Instant Connect </h3>
+            <p> It allow users to connect instantly to dream candidates and jobs. </p>
+          <h3> Instant Connect </h3>
+            <p> </p>
+          <h3> Instant Connect </h3>
+            <p> </p>
         </ContentWrapper>
         <ContentWrapper>
           <h2>Our approach</h2>
