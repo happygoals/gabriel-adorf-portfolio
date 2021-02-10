@@ -12,7 +12,7 @@ import FullSizeImage from 'components/article/fullsizeimage'
 
 import CoverSrc from 'img/articles/ebridge/lifetime-cover.svg'
 import DiagramSrc from 'img/articles/ebridge/ebridge-diagram.png'
-import Silos2Src from 'img/articles/ebridge/lifetime-silos2.svg'
+import ProblemSrc from 'img/articles/ebridge/ebridge-problem.jpg'
 import UISrc from 'img/articles/ebridge/lifetime-app.jpg'
 import UI2Src from 'img/articles/ebridge/lifetime-app2.jpg'
 import TasksSrc from 'img/articles/ebridge/lifetime-tasks.jpg'
@@ -109,9 +109,9 @@ const Ebridge = () => {
           <h2>Covid 19 has caused the disruption in face-to-face interaction between recruiters and candidates.</h2>
           <h3>Shallow networking and resume spreading does not help with recruiting.</h3>
           <p>
-            Students want to interact with professionals who understand the position.
-
+            Students want to interact with professionals who understand the position.    
           </p>
+            <FullSizeImage src={ProblemSrc} />
           <p>
             Historically, the fact that people are not granted direct access to
             their own health data can be explained by the role of doctors as
@@ -198,7 +198,6 @@ const Ebridge = () => {
             the diagnostic work.
           </p>
         </ContentWrapper>
-        <FullSizeImage src={Silos2Src} />
         <ContentWrapper>
           <h2>Our approach</h2>
           <h3>Resume Gallery & Video Gallery</h3>
