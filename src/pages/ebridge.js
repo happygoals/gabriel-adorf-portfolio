@@ -112,29 +112,7 @@ const Ebridge = () => {
             Students want to interact with professionals who understand the position.    
           </p>
             <FullSizeImage src={ProblemSrc} />
-          <p>
-            Historically, the fact that people are not granted direct access to
-            their own health data can be explained by the role of doctors as
-            &quot;gods in white&quot;. Patients weren&#39;t considered as wise
-            and educated enough to have a say and diagnostic details were only
-            seen as an overwhelming burden to them. This attitude can still be
-            found among older doctors today.
-          </p>
-          <p>
-            In fact, I believe only in the field of psychiatry/psychotherapy, it
-            sometimes is better if doctors are able to make diagnoses and take
-            notes without patients having direct access to everything. In all
-            other medical fields, transparency should be an absolute
-            prerequisite for medical treatment.
-          </p>
-          <p>
-            It should be clear to everyone that medicine is not an exact science
-            and that it holds many uncertainties. Decisions are often based on
-            probabilities or experience. In no other domain with equivalent
-            consequences for one&#39;s own life would one give up complete
-            control to outsiders so readily and &quot;hope for the best&quot;
-            without trying to understand the basis on which decisions are made.
-          </p>
+          
           <h3>Recruiters need a tool to manage a number of resumes</h3>
           <p>
             People - especially chronically ill - who actually try to keep track
@@ -196,10 +174,10 @@ const Ebridge = () => {
           <h2> Project Goals</h2> 
           <h3> Instant Connect </h3>
             <p> It allow users to connect instantly to dream candidates and jobs. </p>
-          <h3> Instant Connect </h3>
-            <p> </p>
-          <h3> Instant Connect </h3>
-            <p> </p>
+          <h3> Right Candidates </h3>
+            <p> Recruiters can get to know candidates beyond the resume line</p>
+          <h3> Self-improvement </h3>
+            <p> User can understande most valuable skill, train and get certified, get challenged through projects</p>
         </ContentWrapper>
         <ContentWrapper>
           <h2>Our approach</h2>
@@ -232,10 +210,10 @@ const Ebridge = () => {
           <h3>Earning Badges</h3>
           <p>
             Current job-seeking platforms allow users to add skills to their profiles. 
-            However, it is a fact that it is difficult to know if those listed skills are VALID.
+            However, it is a fact that it is difficult to know if those listed skills are <b>VALID</b>.
           </p>
           <p>
-            Therefore, we are suggesting a new system that allows users to “prove” their skills, which we believe that will also help recruiters save time in the interview process.
+            Therefore, we are suggesting a new system that allows users to “<b>prove</b>” their skills, which we believe that will also help recruiters save time in the interview process.
           </p>
             <h3>Badges System</h3>
           <p>
@@ -297,16 +275,6 @@ const Ebridge = () => {
           </p>
         </ContentWrapper>
       </Section>
-      <ImageGrid>
-        <Img src={IconsSrc} />
-        <Img src={ColorsSrc} />
-        <Img src={OnboardingSrc} />
-        <Img src={LogoSrc} />
-        <Img src={LetterBoxSrc} />
-        <Img src={HeartSpinnerSrc} />
-        <Img src={PaperPlaneSrc} />
-        <Img src={TypeIconsSrc} />
-      </ImageGrid>
       <Footer />
     </GlobalWrapper>
   )
