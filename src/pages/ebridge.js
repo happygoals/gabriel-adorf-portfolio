@@ -10,10 +10,10 @@ import ContentWrapper from 'components/article/contentwrapper'
 import Footer from 'components/footer'
 import FullSizeImage from 'components/article/fullsizeimage'
 
-import CoverSrc from 'img/articles/ebridge/lifetime-cover.svg'
+import CoverSrc from 'img/articles/ebridge/ebridge-main-laptop.jpg'
 import DiagramSrc from 'img/articles/ebridge/ebridge-diagram.png'
 import ProblemSrc from 'img/articles/ebridge/ebridge-problem.jpg'
-import UISrc from 'img/articles/ebridge/lifetime-app.jpg'
+import ResumeGallery from 'img/articles/ebridge/ebridge-resume-gallery.jpg'
 import UI2Src from 'img/articles/ebridge/lifetime-app2.jpg'
 import TasksSrc from 'img/articles/ebridge/lifetime-tasks.jpg'
 import OnboardingSrc from 'img/articles/ebridge/lifetime-illustration.svg'
@@ -178,9 +178,10 @@ const Ebridge = () => {
             <p> Recruiters can get to know candidates beyond the resume line</p>
           <h3> Self-improvement </h3>
             <p> User can understande most valuable skill, train and get certified, get challenged through projects</p>
-        </ContentWrapper>
+          <h2>Our approach</h2>     
+         </ContentWrapper>
+          <FullSizeImage src={ResumeGallery} />
         <ContentWrapper>
-          <h2>Our approach</h2>
           <h3>Resume Gallery & Video Gallery</h3>
           <p>
             Candidates must upload their resume on the system as they create their profile.
@@ -205,7 +206,6 @@ const Ebridge = () => {
           </p>
           
         </ContentWrapper>
-        <FullSizeImage src={UISrc} />
         <ContentWrapper>
           <h3>Earning Badges</h3>
           <p>
