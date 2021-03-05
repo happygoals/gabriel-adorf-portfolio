@@ -27,7 +27,7 @@ const Work = () => {
             logo={EbridgeLogo()}
             title="E-Bridge"
             abstract="E-Bridge is an online two-sided employment platform designed to instantly connect technical talent with job opportunities after the COVID-19 crisis. This solution will help students, companies, and the community in face-to-face interaction between recruiters and candidates."
-            
+            link={EbridgeLink}
           />
           <Project
             logo={StarStockLogo()}
