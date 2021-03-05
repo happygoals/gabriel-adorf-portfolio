@@ -109,44 +109,17 @@ const Ebridge = () => {
           <h2>Covid 19 has caused the disruption in face-to-face interaction between recruiters and candidates.</h2>
           <h3>Shallow networking and resume spreading does not help with recruiting.</h3>
           <p>
-            Students want to interact with professionals who understand the position.    
+            Students want to interact with professionals who understand the position. There are not many virtual tool that gives candidates more chances to get reached and hired. 
           </p>
             <FullSizeImage src={ProblemSrc} />
           
           <h3>Recruiters need a tool to manage a number of resumes</h3>
+         
           <p>
-            People - especially chronically ill - who actually try to keep track
-            of past treatments and diagnoses usually do so in form of a folder
-            in which documents are filed. This folder is then carried from
-            doctor to doctor and placed on the counter at the reception before
-            the appointment.
+            Resumes are a great way by which you can identify quality talent but they have a major problem: recruiters have a hard time managing and organizing these resumes to pick the relevant ones. 
+            E-bridge is the tools to collect, parse, search, and manage resumes from your job seekers. The features of E-bridge extend beyond just managing resumes and sorting them into stacks, but into the customized hiring process.
           </p>
-          <p>
-            The handling of these folders varies from place to place. In some
-            facilities, the documents are all scanned in. In others, the doctor
-            leafs through them briefly just before the treatment, hoping that
-            something accidentally strikes her or his eye. In other facilities,
-            the paper stacks are simply ignored.
-          </p>
-          <p>
-            It&#39;s not the doctors&#39; fault. On average, they only have 8
-            minutes for one treatment and have no chance to process big stacks
-            of files during this time.
-          </p>
-          <p>
-            In the current state of affairs people own only part of their
-            medical data themselves – mostly on paper. Most of it is scattered
-            over various computers of doctor&#39;s offices and hospitals they
-            have visited in the past.
-          </p>
-          <p>
-            If a patient or doctor needs access to certain information, the
-            patient must first remember that the information exists and where
-            the data was collected. Then the current standard process is a phone
-            call followed by a direct transmission of the file from doctor to
-            doctor by fax. A technology from the 1970ies that almost no one else
-            uses anymore.
-          </p>
+    
         </ContentWrapper>
         <FullSizeImage src={DiagramSrc} />
         <ContentWrapper>
@@ -155,29 +128,15 @@ const Ebridge = () => {
            Each view starts with candidates create profiles and Professionals create their accounts. 
            The steps candidates would do from their view (Candidate View) and the steps recruiters would do from their view (Professional View). 
           </p>
-          <p>
-            For your diagnoses, doctors therefore rely to a large extent on the
-            data they collect themselves during an appointment or on the few
-            pieces of information that are collected through questionaires,
-            handed out to patients before the appointement.
-          </p>
-          <p>
-            This is tiresome repetitive work for both doctors and patients and
-            let&#39;s be honest: Who can reliably remember details of diseases
-            of his relatives and his own medical past?
-          </p>
-          <p>
-            But: This information could be very valuable for a better diagnosis.
-          </p>
         </ContentWrapper>
         <ContentWrapper>
           <h2> Project Goals</h2> 
           <h3> Instant Connect </h3>
             <p> It allow users to connect instantly to dream candidates and jobs. </p>
           <h3> Right Candidates </h3>
-            <p> Recruiters can get to know candidates beyond the resume line</p>
+            <p> Recruiters can get to know candidates beyond the resume line.</p>
           <h3> Self-improvement </h3>
-            <p> User can understande most valuable skill, train and get certified, get challenged through projects</p>
+            <p> User can understande most valuable skill, train and get certified, get challenged through projects.</p>
           <h2>Our approach</h2>     
          </ContentWrapper>
           <FullSizeImage src={ResumeGallery} />
@@ -192,17 +151,17 @@ const Ebridge = () => {
           <h3>Resume Gallery</h3>
           <p>
             Visible to recruiters by school / majors / work authorization, etc.
-            Can be used as a resume cloud for the recruiter.
+            This feature can be used as a resume cloud for the recruiter.
             The system suggests resume to include the predefined keywords once candidate upload their resume. Recruiters can search by skills and find the resume containing the skills they need.
-            Wish-list favorite resume increase points for candidate.
-            Algorithm to suggest potential resumes to recruiters based on the current openings. 
+            Wish-list / favorite resume increase points for candidate.
+            Algorithm to suggest potential resumes to recruiters based on the current openings will help the initial recruiting process management. 
           </p>
           <h3>Video Gallery</h3>
           <p>
-            Visible to recruiters by majors (Accounting, for example).
+            Videos will be visible to recruiters by college majors / positions.
             The video is hoped to eliminate the need for phone screen interview and help recruiter select those that will move straight to the interview with people in the position.
-            Wish-list option for their favorite video and refer once they have an opening position.
-            Algorithm to suggest videos to recruiters based on the current openings. 
+            Recruiter can use wish-list option for keeping their favorite videos and they can refer once they have an opening position.
+            Algorithm to suggest videos to recruiters based on the current openings  will help the interview process management. 
           </p>
           
         </ContentWrapper>
@@ -241,7 +200,6 @@ const Ebridge = () => {
             They can also learn from provided lectures to earn points. 
             The material can be from beginner to advanced topics. 
           </p>
-        <FullSizeImage src={UI2Src} />
           <h3>Application Progress Bar</h3>
             <h4><b>For Recruiters</b></h4>
               <h4>Transparent Recruiting</h4>
@@ -254,7 +212,6 @@ const Ebridge = () => {
               <h4>Motivated Applying</h4>
                  <p>Prove  your growthInform users of how close they are to completing a set of tasks by showing steps of completion along the way.</p>
         </ContentWrapper>
-        <FullSizeImage src={TasksSrc} />
         <ContentWrapper>
           <h2>To make Live Q&A Chat Effectively</h2>
           <h3>Virtual Job Expo</h3>
