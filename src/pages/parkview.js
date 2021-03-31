@@ -40,25 +40,26 @@ const Pakview = () => {
           </p>
 
           <p>
-            PRMC is invested in improving the patient experience and is a leading institution in the medical industry. This project aims to utilize new technologies with a focus on the patient experience to keep PRMC ahead of the competitors. 
+            PRMC is investing in improving the patient experience and is a leading institution in the medical industry. The project aims to leverage new technologies which focused on the patient experience to keep PRMC ahead of the competitors.
           </p>
          <p>
-            The application currently uses Bluetooth low energy to power the real-time positioning functionality of the application creating an easy to understand navigation system.
+            The application uses Bluetooth low energy to power the real-time application positioning functionality,  creating an easy-to-understand navigation system.
          </p>
           <LargeImage src={ParkviewImage1} alt="Software Diagram" />
         </ContentWrapper>
         <ContentWrapper>
           <h2>Project Scope Description</h2>
           <h4>Problem</h4>
-          <p>Information in the database is not currently used.</p>
+          <p>Information in the database currently is not used.</p>
           <h4>Reason</h4>        
-          <p>Hospital patient’s location and database data can be efficiently managed to help guide patients.</p>
+          <p>The patient's user data and navigation data in the hospital can be efficiently managed to help guide patients.</p>
           <p> * Example Data: Age, Time, Handicapped</p>
          <p>
-          <b>Solution Development of a Web Application</b> that presents analyzed data to administrative staff in a comprehensive manner and allowing the data to be manipulated or viewed in many different formats and the Web application is only for <b>Parkview staff members</b>.
+          <b>Solution development of a web application</b> that provides analyzed data to administrative staff in a comprehensive manner, and allows the data to be manipulated or viewed in a variety of formats.
+
          </p>
           <p>
-           For example, using the webpage the Parkview staff could determine what time are most populated, and by which age group or gender. This would allow for an in-depth look at particular patient demographics, giving Parkview the tools to improve upon their already great services.
+           For example, Parkview employees can use a web application to determine the most populated time and by which age group or gender. This effect would allow for an in-depth look at particular patient demographics, giving Parkview the tools to improve their services.
          </p>
          <h2>My role for this project</h2>
           <p>
@@ -68,7 +69,7 @@ const Pakview = () => {
         <br />
         <LargeImage src={ParkviewImage2} alt="Main Login" />
           <ContentWrapper>
-          <p> This is a Parkview Analytics Main login Page. The diamond shape of the central login window is designed in consideration of the shape of the Parkview Hospital logo. To keep the main theme color of Parkview Health, the main color of the application pages use green. For ease of identification, white is used to highlight button text that makes the user goes to different pages.
+          <p> This is a Parkview Analytics Main login Page. The diamond shape of the central login window is designed in consideration of the shape of the Parkview Hospital logo. To keep the main theme color of Parkview Health, the main color of the application pages uses green. For ease of identification, white is used to highlight button text that makes the user goes to different pages.
             </p>
             <iframe src="https://player.vimeo.com/video/392363121" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
           </ContentWrapper>
@@ -76,7 +77,7 @@ const Pakview = () => {
         <LargeImage src={ParkviewImage4} alt="Heatmap Page" />
         <ContentWrapper>
           <p> A heat map page allows the staff to view the population of the spot and check the most popular department, most popular beacon number, and least popular beacon number. </p>
-          <p> I added the sun and moon icons at the bottom of the time picker to let you know at a glance whether it is the day time or night time when setting the time range on the heatmap controller. In addition, the color of the time picker bar is designed as a gradient green color in consideration of the sun rising and setting. The time of day when the sun goes down is expressed in dark green, and the time of day when the sun rises is expressed in lighter green. </p>
+          <p> I added the sun and moon icons at the bottom of the time picker to let you know at a glance whether it is daytime or nighttime when setting the time range on the heatmap controller. In addition, the color of the time picker bar is designed as a gradient green color in consideration of the sun rising and setting. The time of day when the sun goes down is expressed in dark green, and the time of day when the sun rises is expressed in lighter green. </p>
           <p>All setting texts and result boxes that have meaning are displayed together with text and icon so that the user can easily understand the meaning with just the icon.</p> 
           <iframe src="https://player.vimeo.com/video/392362627" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
           
@@ -84,7 +85,7 @@ const Pakview = () => {
   <br />
         <LargeImage src={ParkviewImage5} alt="Route Page" />
        <ContentWrapper>
-          <p> This is a routing map page for understand routing patterns in the first floor of the hospital. Each series of bubbles on the route chart represent a route taken. The size of the bubble on the chart represents the frequency of the route. When clicking on a bubble, it draws the corresponding route on the map. </p>
+          <p> This is a routing map page for understanding routing patterns on the first floor of the hospital. Each series of bubbles on the route chart represent a route taken. The size of the bubble on the chart represents the frequency of the route. When clicking on a bubble, it draws the corresponding route on the map. </p>
           <br />
           <iframe src="https://player.vimeo.com/video/392360253" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
       </ContentWrapper>
