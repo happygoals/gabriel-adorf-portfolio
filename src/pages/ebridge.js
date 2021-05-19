@@ -209,7 +209,7 @@ const Ebridge = () => {
             <h4><b>For Candidates</b></h4>
               <h4>Smart Applying</h4>
                 <p>Track the application status</p>
-                <p?Save the time to apply for</p>
+                <p>Save the time to apply for the position</p>
               <h4>Motivated Applying</h4>
                  <p>Prove  your growth</p>
                  <p>Inform users of how close they are to completing a series of tasks by showing the completion steps along the way.</p>
