@@ -30,7 +30,7 @@ const About = () => {
       rightColumn={
         <Fragment>
           <Big>
-            Hello. I'm Haemin Ryu, a prospective HCI graduate student living in Fort Wayne, IN, USA. I create harmony between humans and products.
+            Hello. I'm Haemin Ryu, a HCI enthusiast living in Fort Wayne, IN, USA. I create harmony between humans and products.
           </Big>
           <p>
             People are the reason behind everything I do. I love thinking about changes to make the user experience and human life better.
