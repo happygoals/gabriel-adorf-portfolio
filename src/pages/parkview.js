@@ -56,7 +56,6 @@ const Pakview = () => {
           <p> * Example Data: Age, Time, Handicapped</p>
          <p>
           <b>Solution development of a web application</b> that provides analyzed data to administrative staff in a comprehensive manner, and allows the data to be manipulated or viewed in a variety of formats.
-
          </p>
           <p>
            For example, Parkview employees can use a web application to determine the most populated time and by which age group or gender. This effect would allow for an in-depth look at particular patient demographics, giving Parkview the tools to improve their services.
